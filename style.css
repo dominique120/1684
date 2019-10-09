@@ -1,0 +1,381 @@
+* {
+    margin: auto;
+    padding: 0px;
+    
+}
+
+main {
+    width: 1155px;
+    background: white;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+#menu {
+    padding-top: 67px;
+    margin-top: -100px;
+    width: 1155px;
+    height: 50px;
+    background-color: #333255;
+    display: block;
+}
+
+#columnas {
+    height: 370px;
+    background-color: #333255;
+    position: inherit;
+}
+
+#menuposicion {
+    margin-left: -20px;
+}
+
+.HOTELES:hover {
+    border-bottom: 3px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.BLOG:hover {
+    border-bottom: 3px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.PROMOCIONES:hover {
+    border-bottom: 3px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.VUELOS {
+    border-bottom: 3px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+nav ul li {
+    text-decoration-style: solid;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    float: left;
+    position: static;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    padding-left: 305px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#SeccionPrincipal {
+    width: 1155px;
+}
+
+#logo {
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+#text {
+    position: absolute;
+    padding-top: 48px;
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+.Busqueda {
+    padding-top: 12px;
+    margin-bottom: -30px;
+}
+
+.seleccion {
+    font-family: 'Nunito', sans-serif;
+    float: right;
+    text-align: left;
+    padding-top: 2px;
+    margin-left: 2px;
+    padding-left: 2px;
+}
+
+#textBoxBusqueda {
+    align-items: flex-end;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: inherit;
+    padding-left: 120px;
+    padding-top: 100px;
+    margin-left: -60px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+#textBoxBusqueda2 {
+    align-items: flex-end;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: inherit;
+    padding-left: 70px;
+    padding-top: 180px;
+    margin-left: -60px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+#textBoxBusqueda3 {
+    align-items: flex-end;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: inherit;
+    padding-left: 90px;
+    padding-top: 200px;
+    margin-left: -60px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+#fondocorazon {
+    position: absolute;
+    padding-left: 550px;
+    margin-top: -15px;
+    width: 480px;
+}
+
+.columnasDeBusqueda {
+    display: flex;
+    position: absolute;
+    line-height: inherit;
+    padding-left: 120px;
+    padding-top: 32px;
+    margin-left: -60px;
+    padding-bottom: 12px;
+    color: white;
+}
+
+.textBoxOrigen {
+    height: 40px;
+    width: 60px;
+    margin-top: -6px;
+    border-radius: 2px 2px 0px 0px;
+    padding-left: 43px;
+    padding-right: 55px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #474766;
+    border-bottom: 3px solid #9494a6;
+    border-width: 1px; 
+}
+
+.textBoxOrigen:hover {
+    height: 40px;
+    width: 62px;
+    margin-top: -6px;
+    border-radius: 2px 2px 0px 0px;
+    padding-left: 43px;
+    padding-right: 55px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #474766;
+    border-bottom: 3px solid #fff;
+    border-width: 2px;
+}
+
+.textBoxOrigen2 {
+    height: 40px;
+    width: 62px;
+    margin-top: -6px;
+    border-radius: 4px 4px 4px 4px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #f59173;
+}
+
+.OrigenIcon {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+.LetraBusqueda {
+    height: 15px;
+}
+
+.LetraBusqueda2 {
+    padding-top: 7px;
+    color: #333255;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#barra-sitios {
+    text-decoration: none;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.columnasDeDestinos {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(50, 50, 86);
+    color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+    vertical-align: top;
+}
+
+#LinksDeAbajo {
+    align-items: baseline;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.subTituloFooter {
+    font-size: 10px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+.tituloFooter {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.imgshadow3 {
+    border: 0.5px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.textBoxDestino {
+    margin-top: -6px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #333255;
+}
+
+#destinosText {
+    margin-left: 55px;
+}
+
+.destinoFeature {
+    padding-right: 20px;
+    max-width: 230px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.featureText {
+    color: #333255;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#sitios {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.texto3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    font-weight: 800;
+}
+
+.subtext3 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    font-weight: 400;
+}
+
+.textBoxOrigen5 {
+    height:35px;
+    width: 70px;
+    display: inline-block;
+    margin-top: -10px;
+    margin-right: 35px;
+    border-radius: 2px 2px 2px 2px;
+    padding-right: 30px;
+    padding-top: -20px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: #474766;
+    border-bottom: 0px solid #9494a6;
+    white-space: nowrap;
+}
+
+.OrigenIcon3 {
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.LetraBusqueda3 {
+    position: absolute;
+    color: white;  
+    padding-left: 70px;
+    margin-top: 3px;
+    margin-right: 60px;
+    height: 15px;
+}
+
+.flag-icon-background {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+  .flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+  }
+  .flag-icon:before {
+    content: "\00a0";
+  }
+  .flag-icon.flag-icon-squared {
+    width: 1em;
+  }
+  .flag-icon-pe {
+    background-image: url(img/pe4x3.svg);
+    border-radius: 50px;
+  }
+  .flag-icon-pe.flag-icon-squared {
+    background-image: url(img/pe1x1.svg);
+    border-radius: 50px;
+  }
+  
