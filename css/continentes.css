@@ -1,3 +1,21 @@
 .slogan-europa {
     background-image: url('../img/EUR.JPEG');
 }
+
+.titulo-continente h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.descripcion-continente p {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.continente-feature {
+    height: 250px;
+    width: 100%;
+    background-color: lightblue;
+}
