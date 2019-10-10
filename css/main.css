@@ -49,8 +49,23 @@ body {
     flex-wrap: wrap;
 }
  
+a {
+    text-decoration:none;
+    height: 66px;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 
-#menu ul li a{
+#menu ul li {
     height: 66px;
     width: 150px;
     list-style: none;
@@ -73,7 +88,7 @@ body {
     display: none;
 }
 
-#menu ul li :hover {
+#menu ul li a:hover {
     background-color: #f1c49b;
     color: black;
     height: 60px;
