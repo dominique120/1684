@@ -14,7 +14,7 @@ body {
 .slider, 
 .slider > div {
     /* Images default to Center Center. Maybe try 'center top'? */
-    background-position: center center;
+    background-position: center top;
     display: block;
     width: 100%;
     height: 800px;
@@ -31,7 +31,7 @@ body {
 }
 
 .slider > div {
-    position: absolute;
+    position: absolute; 
 }
 
 .slider > i {
@@ -63,6 +63,8 @@ body {
 .slider > .right {
     right: -100px;
 }
+ 
+
 .slider:hover > .left {
     left: 0;
 }
