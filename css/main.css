@@ -190,8 +190,10 @@ body {
     position: absolute;
     bottom: 0;
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 0;
+    padding-left: 50px;
+    padding-bottom: 30px;
     width: 100%;
 }
 
