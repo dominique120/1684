@@ -105,6 +105,27 @@ body {
     transform: translateX(-50%);
 }
 
+.logo {
+    top: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 4;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-50%);
+}
+
+.slider > ul {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 4;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-50%);
+}
+
 .slider > ul > li {
     opacity: 0.5;
     padding: 0;
@@ -163,6 +184,8 @@ body {
     transition: .3s;
     color: #fff;
 }
+
+
 
 .titleBar * {
     transform: translate(-20px, 30px);
