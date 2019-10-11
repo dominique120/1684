@@ -297,6 +297,12 @@ a {
     justify-content: center; 
     }
 
+a:visited {
+    color: inherit;
+    list-style: none;
+
+    }
+
 #menu #h {
     display: none;
 }
@@ -366,6 +372,8 @@ a {
     font-family: 'Montserrat', sans-serif;
     background-size: cover;
 }
+ 
+
 
 .slogan-principal {
     background-image: url('../img/slide4.jpg');
@@ -396,6 +404,43 @@ a {
     background-repeat: no-repeat;
 }
 
+
+
+#circulovideo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+}
+
+.conti2 {
+    border-radius: 10%;
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#destino1 {
+    background-image: url('../img/ultimosviajes/destino1.jpg');
+}
+
+#destino2 {
+    background-image: url('../img/ultimosviajes/destino2.jpg');
+}
+
+*****************************************
+
 #conti-feature-africa {
     background-image: url('../continentes/chd1.jpg');
 }
@@ -420,16 +465,20 @@ a {
     background-image: url('../continentes/chd6.jpg');
 }
 
-.conti .text {
+.conti .text{
     font-family: 'Montserrat', sans-serif;
     color: white;
     display: none;
     transition: display 0.5s;
-    font-size: 24px;
+    font-size: 30px; 
+ 
+
+
 }
 
 .conti:hover .text {
-    display: block;
+    display: block; 
+
 }
 
 .conti:hover {
@@ -459,3 +508,30 @@ a {
     cursor: pointer;
 }
  
+/* TEXTO   */
+
+
+#videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    justify-content: center;
+    text-align: left; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    animation-name: slideInFromLeft;
+    animation-delay: 0.2s;
+} 
+
+#trabajemos {
+    font-size: 40px;
+    text-align: center;
+
+}
