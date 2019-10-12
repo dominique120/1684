@@ -2,6 +2,14 @@
     background-image: url('../img/EUR.JPEG');
 }
 
+.slogan-asia {
+    background-image: url('../img/ASI.JPEG');
+}
+
+.slogan-america {
+    background-image: url('../img/AME.JPEG');
+}
+
 .titulo-continente h2 {
     display: flex;
     justify-content: center;
