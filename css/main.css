@@ -297,12 +297,6 @@ a {
     justify-content: center; 
     }
 
-a:visited {
-    color: inherit;
-    list-style: none;
-
-    }
-
 #menu #h {
     display: none;
 }
@@ -318,6 +312,11 @@ a:visited {
     border-top: 3px solid #d3a700;
     border-bottom: 3px solid #d3a700;
 }
+
+a:visited {
+
+    color:inherit;
+    }
 
 #informacion {
     width: 100%;
@@ -403,43 +402,7 @@ a:visited {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
-
-#circulovideo {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: stretch;
-    align-items: center;
-}
-
-.conti2 {
-    border-radius: 10%;
-    height: 400px;
-    width: 400px;
-    background-color: black;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#destino1 {
-    background-image: url('../img/ultimosviajes/destino1.jpg');
-}
-
-#destino2 {
-    background-image: url('../img/ultimosviajes/destino2.jpg');
-}
-
-*****************************************
+  
 
 #conti-feature-africa {
     background-image: url('../continentes/chd1.jpg');
@@ -465,20 +428,16 @@ a:visited {
     background-image: url('../continentes/chd6.jpg');
 }
 
-.conti .text{
+.conti .text {
     font-family: 'Montserrat', sans-serif;
     color: white;
     display: none;
     transition: display 0.5s;
-    font-size: 30px; 
- 
-
-
+    font-size: 24px;
 }
 
 .conti:hover .text {
-    display: block; 
-
+    display: block;
 }
 
 .conti:hover {
@@ -513,7 +472,9 @@ a:visited {
 
 #videos {
     width: 100%;
+    
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -531,7 +492,49 @@ a:visited {
 } 
 
 #trabajemos {
-    font-size: 40px;
-    text-align: center;
-
+    font-size: 50px;
+    text-align: center; 
 }
+
+
+
+
+/*  ultimos viajes */
+section#features {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  section#features div.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px 10px 35px 10px;
+  }
+  
+  section#features img#icon {
+    border-radius: 10%;
+    height: 350px;
+
+  }
+  
+  section#features div.desc {
+    min-width: 180px;
+    margin: 10px 10px 15px 10px;
+    line-height: 1.5;
+  }
+  
+  section#features div.desc h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-bottom: 10px;
+  }
+  
