@@ -7,59 +7,57 @@ body {
     z-index: +1;
 }
 
-
-
-
 /*  ultimos viajes */
+
 section#features {
     padding-top: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  
-  section#features div.grid {
+}
+
+section#features div.grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: calc(100%  / 3);
+    width: calc(100% / 3);
     margin: 10px 10px 35px 10px;
-  }
-  
-  section#features img#icon {
+}
+
+section#features img.icon {
     border-radius: 10%;
     height: 350px;
+}
 
-  }
-  
-  section#features div.desc {
+section#features div.desc {
     min-width: 180px;
     margin: 10px 10px 15px 10px;
     line-height: 1.5;
-  }
-  
-  section#features div.desc h2 {
+}
+
+section#features div.desc h2 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
     margin-bottom: 10px;
-  }
-  /*ultimos viajes*/
+}
+
+/*ultimos viajes*/
 
 /*slider*/
 
-.slider, 
-.slider > div {
+.slider, .slider>div {
     /* Images default to Center Center. Maybe try 'center top'? */
     background-position: center top;
     display: block;
     width: 100%;
     height: 800px;
-    /* height: 100vh; *//* If you want fullscreen */
+    /* height: 100vh; */
+    /* If you want fullscreen */
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,11 +69,11 @@ section#features {
     transition: transform .4s;
 }
 
-.slider > div {
-    position: absolute; 
+.slider>div {
+    position: absolute;
 }
 
-.slider > i {
+.slider>i {
     color: #5bbd72;
     position: absolute;
     font-size: 60px;
@@ -94,49 +92,49 @@ section#features {
     z-index: 4;
 }
 
-.slider > i svg {
+.slider>i svg {
     margin-top: 3px;
 }
 
-.slider > .left {
+.slider>.left {
     left: -100px;
 }
-.slider > .right {
+
+.slider>.right {
     right: -100px;
 }
- 
 
-.slider:hover > .left {
+.slider:hover>.left {
     left: 0;
 }
-.slider:hover > .right {
+
+.slider:hover>.right {
     right: 0;
 }
 
-.slider > i:hover {
-    background:#fff;
+.slider>i:hover {
+    background: #fff;
     background: rgba(255, 255, 255, .8);
     transform: translateX(-2px);
 }
 
-.slider > i.right:hover {
+.slider>i.right:hover {
     transform: translateX(2px);
 }
 
-.slider > i.right:active,
-.slider > i.left:active {
+.slider>i.right:active, .slider>i.left:active {
     transform: translateY(1px);
 }
 
-.slider:hover > div {
+.slider:hover>div {
     transform: scale(1.01);
 }
 
-.hoverZoomOff:hover > div {
+.hoverZoomOff:hover>div {
     transform: scale(1);
 }
 
-.slider > ul {
+.slider>ul {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -157,7 +155,7 @@ section#features {
     transform: translateX(-50%);
 }
 
-.slider > ul {
+.slider>ul {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -167,7 +165,7 @@ section#features {
     transform: translateX(-50%);
 }
 
-.slider > ul > li {
+.slider>ul>li {
     opacity: 0.5;
     padding: 0;
     width: 20px;
@@ -184,7 +182,7 @@ section#features {
     transition: .3s;
 }
 
-.slider > ul > .showli {
+.slider>ul>.showli {
     opacity: 0.5;
     background-color: #d3a700;
     -moz-animation: boing .5s forwards;
@@ -193,30 +191,30 @@ section#features {
     animation: boing .5s forwards;
 }
 
-.slider > ul > li:hover {
+.slider>ul>li:hover {
     background-color: #d3a700
 }
 
-.slider > .show {
+.slider>.show {
     z-index: 1;
 }
 
-.hideDots > ul {
+.hideDots>ul {
     display: none;
 }
 
-.showArrows > .left {
+.showArrows>.left {
     left: 0;
 }
 
-.showArrows > .right {
+.showArrows>.right {
     right: 0;
 }
 
 .titleBar {
     z-index: 2;
     display: inline-block;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -225,8 +223,6 @@ section#features {
     transition: .3s;
     color: #fff;
 }
-
-
 
 .titleBar * {
     transform: translate(-20px, 30px);
@@ -238,8 +234,7 @@ section#features {
     transform: translate(-20px, -30px);
 }
 
-.slider:hover .titleBar,
-.slider:hover .titleBar * {
+.slider:hover .titleBar, .slider:hover .titleBar * {
     transform: translate(0);
     opacity: 1;
 }
@@ -250,9 +245,9 @@ section#features {
     transform: translateY(-100%);
 }
 
-.slider > div span {
+.slider>div span {
     display: block;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     position: absolute;
     bottom: 0;
     color: #fff;
@@ -262,7 +257,6 @@ section#features {
     padding-bottom: 30px;
     width: 100%;
 }
-
 
 @keyframes boing {
     0% {
@@ -282,9 +276,7 @@ section#features {
     }
 }
 
-
 /*fin slider*/
- 
 
 #menu {
     width: 100%;
@@ -304,8 +296,6 @@ section#features {
     align-items: center;
     flex-wrap: wrap;
 }
- 
- 
 
 #menu ul li {
     height: 66px;
@@ -323,7 +313,7 @@ section#features {
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     height: 66px;
     width: 150px;
     list-style: none;
@@ -335,8 +325,8 @@ a {
     letter-spacing: 2px;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    }
+    justify-content: center;
+}
 
 #menu #h {
     display: none;
@@ -355,9 +345,8 @@ a {
 }
 
 a:visited {
-
-    color:inherit;
-    }
+    color: inherit;
+}
 
 #informacion {
     width: 100%;
@@ -412,14 +401,12 @@ a:visited {
     font-family: 'Montserrat', sans-serif;
     background-size: cover;
 }
- 
-
 
 .slogan-principal {
     background-image: url('../img/slide4.jpg');
 }
 
-#continente {
+.continente {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
@@ -443,7 +430,6 @@ a:visited {
     background-size: cover;
     background-repeat: no-repeat;
 }
-  
 
 #conti-feature-africa {
     background-image: url('../continentes/chd1.jpg');
@@ -507,13 +493,11 @@ a:visited {
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
- 
-/* TEXTO   */
 
+/* TEXTO   */
 
 #videos {
     width: 100%;
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -523,18 +507,16 @@ a:visited {
 
 #titulo {
     justify-content: center;
-    text-align: left; 
+    text-align: left;
     padding-top: 5px;
-    padding-bottom: 5px; 
-    margin-top: 25px; 
+    padding-bottom: 5px;
+    margin-top: 25px;
     margin-bottom: 25px;
     animation-name: slideInFromLeft;
     animation-delay: 0.2s;
-} 
+}
 
 #trabajemos {
     font-size: 50px;
-    text-align: center; 
+    text-align: center;
 }
-
- 

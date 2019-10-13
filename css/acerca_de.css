@@ -7,47 +7,46 @@ body {
     z-index: +1;
 }
 
-
-
 /*  ultimos viajes */
-section#features {
+
+section.features {
     padding-top: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  
-  section#features div.grid {
+}
+
+section.features div.grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: calc(100%  / 3);
+    width: calc(100% / 3);
     margin: 10px 10px 35px 10px;
-  }
-  
-  section#features img#icon {
+}
+
+section.features img.icon {
     border-radius: 10%;
     height: 350px;
+}
 
-  }
-  
-  section#features div.desc {
+section.features div.desc {
     min-width: 180px;
     margin: 10px 10px 15px 10px;
     line-height: 1.5;
-  }
-  
-  section#features div.desc h2 {
+}
+
+section.features div.desc h2 {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.8px;
     margin-bottom: 10px;
-  }
-  /*ultimos viajes*/
+}
+
+/*ultimos viajes*/
 
 #all {
     top: 0;
@@ -60,20 +59,18 @@ section#features {
     transition: top 0.9s;
 }
 
-
-#head{
-    width:100%;
-    height:550px;
-    display:flex;
-    justify-content:center; 
-    background-image:url('../img/nosotros/amigos-viaje.jpg');
-    color:white;
-    align-items:center; 
+#head {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/nosotros/amigos-viaje.jpg');
+    color: white;
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-  }
-
+}
 
 #menu {
     width: 100%;
@@ -93,8 +90,6 @@ section#features {
     align-items: center;
     flex-wrap: wrap;
 }
- 
- 
 
 #menu ul li {
     height: 66px;
@@ -112,7 +107,7 @@ section#features {
 }
 
 a {
-    text-decoration:none;
+    text-decoration: none;
     height: 66px;
     width: 150px;
     list-style: none;
@@ -124,8 +119,8 @@ a {
     letter-spacing: 2px;
     display: flex;
     align-items: center;
-    justify-content: center; 
-    }
+    justify-content: center;
+}
 
 #menu #h {
     display: none;
@@ -151,12 +146,9 @@ a {
     align-items: center;
 }
 
-
-
 #trabajemos {
     font-size: 40px;
     text-align: center;
-
 }
 
 #cuadro {
@@ -187,7 +179,7 @@ a {
     width: 1400px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 25px; 
+    margin-top: 25px;
     margin-bottom: 25px;
     animation-name: slideInFromLeft;
     animation-delay: 0.2s;
@@ -211,8 +203,6 @@ a {
     color: grey;
     font-family: 'Montserrat', sans-serif;
 }
- 
- 
 
 #continente {
     padding-top: 20px;
@@ -300,4 +290,4 @@ a {
     width: 100px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
-} 
+}
