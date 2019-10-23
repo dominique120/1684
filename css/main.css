@@ -10,6 +10,7 @@ body {
 /*  ultimos viajes */
 
 section#features {
+    width: 0px auto;
     padding-top: 80px;
     display: flex;
     flex-direction: row;
@@ -18,8 +19,7 @@ section#features {
 }
 
 section#features div.grid {
-    display: flex;
-    flex-direction: column;
+    display: table-cell; 
     align-items: center;
     text-align: center;
     width: calc(100% / 3);
@@ -28,12 +28,14 @@ section#features div.grid {
 
 section#features img.icon {
     border-radius: 10%;
-    height: 350px;
+    height: 250px;
 }
 
+ 
+
+
 section#features div.desc {
-    min-width: 180px;
-    margin: 10px 10px 15px 10px;
+    min-width: 180px; 
     line-height: 1.5;
 }
 
@@ -45,6 +47,58 @@ section#features div.desc h2 {
     letter-spacing: 0.8px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1419px) {
+    section#features div.grid {
+        display: block; 
+        align-items: center;
+        text-align: center;
+        width: calc(100% / 3);
+        margin: 10px 10px 35px 10px;
+    }
+
+    section#features { 
+        padding-top: 80px;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section#features div.desc {
+        min-width: 300x; 
+        line-height: 1.5;
+    }
+    
+    section#features div.desc h2 {
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0.8px;
+        margin-bottom: 10px;
+    }
+    
+  }
+  
+
+  @media screen and (max-width: 550px) {
+
+    section#features { 
+        padding-top: 80px;
+        display: block;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+     
+    section#features div.desc {
+        min-width: 430px;
+        line-height: 1.5;
+        }
+}
+   
+ 
 
 /*ultimos viajes*/
 
@@ -447,7 +501,7 @@ a:visited {
     background-image: url('../continentes/chd4.jpg');
 }
 
-#conti-feature-oceania {
+#conti-feature-australia {
     background-image: url('../continentes/chd5.jpg');
 }
 
@@ -455,10 +509,22 @@ a:visited {
     background-image: url('../continentes/chd6.jpg');
 }
 
-.conti .text {
+ 
+
+.conti .text, .continente a {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    display: none;
+    font-weight: normal;
+    display: inline-grid;
+    transition: display 0.5s;
+    font-size: 24px;
+}
+
+.continente a:hover {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    display: inline-grid;
     transition: display 0.5s;
     font-size: 24px;
 }
@@ -468,7 +534,7 @@ a:visited {
 }
 
 .conti:hover {
-    background-image: url('');
+    color: rgba(0, 0, 0, 0.6);
 }
 
 #footer {
@@ -495,15 +561,7 @@ a:visited {
 }
 
 /* TEXTO   */
-
-#videos {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+ 
 
 #titulo {
     justify-content: center;
