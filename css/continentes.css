@@ -10,6 +10,18 @@
     background-image: url('../img/AME.JPEG');
 }
 
+.slogan-africa {
+    background-image: url('../img/AFR.JPEG');
+}
+
+.slogan-antartida {
+    background-image: url('../img/ANT.JPEG');
+}
+
+.slogan-oceania {
+    background-image: url('../img/OCE.JPEG');
+}
+
 .titulo-continente h2 {
     display: flex;
     justify-content: center;
