@@ -1,0 +1,140 @@
+body {
+    transition: top 0.9s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    z-index: +1;
+}
+ 
+#menu {
+    width: 100%;
+    color: black;
+    margin-top: -16px;
+    position: sticky;
+}
+
+#menu i {
+    display: none;
+    cursor: pointer;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#menu ul li {
+    height: 66px;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    height: 66px;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu #h {
+    display: none;
+}
+
+#menu #social {
+    display: none;
+}
+
+#menu ul li a:hover {
+    background-color: #f1c49b;
+    color: black;
+    height: 60px;
+    border-top: 3px solid #d3a700;
+    border-bottom: 3px solid #d3a700;
+}
+
+a:visited {
+    color: inherit;
+}
+ 
+ 
+ 
+ 
+#footer {
+    border-top: 3px solid #d3a700;
+    border-bottom: 3px solid #d3a700;
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+}
+
+#footer #social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footer #social h5 {
+    color: white;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+} 
+
+/*EDITADO */
+
+.continentes li {
+    display: inline-block;
+    position: relative;
+    background-color: rgba(164, 162, 162, 0.2);
+    padding: 15px;
+    width:150px; 
+    border-radius: 20%; 
+    text-align: center; 
+}
+
+
+.continentes li:hover {
+    display: inline-block;
+    position: relative;
+    background-color: white; 
+    padding: 15px;
+    width:150px; 
+    border-radius: 20%; 
+    text-align: center; 
+} 
+
+#head {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/slide5.jpg');
+    color: white;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
