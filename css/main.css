@@ -115,7 +115,7 @@ section#features div.desc h2 {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #000;
+    background-color: white;
     overflow: hidden;
     -moz-transition: transform .4s;
     -o-transition: transform .4s;
