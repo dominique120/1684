@@ -7,38 +7,52 @@
 
   <link rel="icon" href="logo/icono.png" type="image/x-icon" sizes="16X16" />
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script type="text/javascript"
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="js/slider.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/carousel_pics.css">
 
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" media="screen and (max-width:400px)">
   <title>Destino Alterno</title>
 
-  <!--Meta: Avance 2-->
 
 </head>
 
 
 
 <body id="all">
+  <!--
   <nav id="menu">
     <ul>
       <li><a href="index.html">INICIO</a></li>
-      <li><a href="html/acerca_de.html">ACERCA DE</a></li> 
-      <li><a href="html/destinos.html">DESTINOS</a></li> 
+      <li><a href="html/acerca_de.html">ACERCA DE</a></li>
+      <li><a href="html/destinos.html">DESTINOS</a></li>
       <li><a href="html/contact.html">CONTACTO</a></li>
     </ul>
   </nav>
+-->
+
+  <div id="footer">
+    <div id="social">
+      <h5><a href="index.html">INICIO</a></h5>
+      <h5><a href="html/acerca_de.html">ACERCA DE</a></h5>
+      <h5><a href="html/destinos.html">DESTINOS</a></h5>
+      <h5><a href="html/contact.html">CONTACTO</a></h5>
+    </div>
+  </div>
 
 
   <!-- Slider 1 -->
+  <!--
   <div class="slider" id="slider3">
     <section class="logo"><img src="logo/logo.png"></section>
-    <!-- Slides --> 
+
     <div style="background-image:url(img/slidep1.jpg)">
       <span class="titleBar">
         <h1>Huacachina - Perú</h1>
@@ -79,9 +93,81 @@
           paisajes de un mundo fabuloso.</p>
       </span>
     </div>
+-->
 
 
-    <!-- The Arrows -->
+  <!---
+    Temporary slider!
+
+    --->
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('img/slidep1.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4">Huacachina - Perú</h3>
+            <p class="lead"></p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/slidep2.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4">Bali - Indonesia</h3>
+            <p class="lead"></p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/slidep3.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4">La Provenza - Francia</h3>
+            <p class="lead"></p>
+          </div>
+        </div>
+
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/slidep4.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4">Osaka - Japón</h3>
+            <p class="lead"></p>
+          </div>
+        </div>
+
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('img/slidep5.jpg')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="display-4">Capadocia - Turquía</h3>
+            <p class="lead"></p>
+          </div>
+        </div>
+
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </header>
+
+  <!---
+    Temporary slider
+    --->
+
+
+  <!-- The Arrows -->
+  <!--
     <i class="left arrows" style="z-index:2; position:absolute;"><svg viewbox="0 0 100 100">
         <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path>
       </svg></i>
@@ -89,13 +175,65 @@
         <path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) ">
         </path>
       </svg></i>
-    <!-- Title Bar -->
+      -->
+  <!-- Title Bar -->
 
-  </div>
+
+  <br>
+  <br>
+
+  <br>
 
   <h4 id="trabajemos">NUESTROS ÚLTIMOS VIAJES</h4>
 
-  <!--  Info ultimos viajes -->
+
+  <div class="row">
+    <div class="col-lg-11 mx-auto">
+      <div class="row py-5">
+        <div class="col-lg-4">
+          <figure class="rounded p-3 bg-white shadow-sm">
+            <img src="img/ultimosviajes/destino3.jpg" alt="" class="w-100 card-img-top">
+            <figcaption class="p-4 card-img-bottom">
+              <h2 class="h5 font-weight-bold mb-2 font-italic">Buenos Aires</h2>
+              <p class="mb-0 text-small text-muted font-italic">Viajar a Argentina es una de las experiencias viajeras
+                más intensas que uno puede
+                sentir.
+                Nosotros viajamos al país del tango en nuestra primera vuelta al mundo en el 2019, y lo
+                cierto es que es uno de los paises que más disfrutamos.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-4">
+          <figure class="rounded p-3 bg-white shadow-sm">
+            <img src="img/ultimosviajes/destino4.jpg" alt="" class="w-100 card-img-top">
+            <figcaption class="p-4 card-img-bottom">
+              <h2 class="h5 font-weight-bold mb-2 font-italic">Bielorrusia</h2>
+              <p class="mb-0 text-small text-muted font-italic">Bielorrusia era para mí un destino soñado desde hacía
+                mucho tiempo. No tenía un listado
+                de lugares para ver o monumentos o ciudades que visitar. Quería descubrirlo con mis propios
+                ojos, sin expectativas y pintar por fin ese lienzo en blanco.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-4">
+          <figure class="rounded p-3 bg-white shadow-sm">
+            <img src="img/ultimosviajes/destino1.jpg" alt="" class="w-100 card-img-top">
+            <figcaption class="p-4 card-img-bottom">
+              <h2 class="h5 font-weight-bold mb-2 font-italic">Montevideo</h2>
+              <p class="mb-0 text-small text-muted font-italic">En Montevideo, nos encontramos con sus excelentes
+                playas. Nosotros creemos que ya va
+                siendo hora de que planifiques un viaje a este rincón, quizás un tanto desconocido por los turistas,
+                pero no para nosotros.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+
+
+
+      <!--  Info ultimos viajes -->
+      <!--
   <section id="features">
     <div class="grid">
       <img class="icon" src="img/ultimosviajes/destino3.jpg" alt="icon-video">
@@ -125,51 +263,56 @@
       </div>
     </div>
   </section>
+-->
 
 
-  <article class="continente">
-    <div class="slogan slogan-principal">
-      CONTINENTES
-    </div>
 
-    <article class="continente">
 
-      <section id="conti-feature-africa" class="conti">
-        <div class="text"><a href="html/africa/africa.html">África</a></div>
-      </section>
+      <article class="continente">
+        <div class="slogan slogan-principal">
+          CONTINENTES
+        </div>
 
-      <section id="conti-feature-america" class="conti">
-        <div class="text"><a href="html/america/america.html">América</a></div>
-      </section>
+        <article class="continente">
 
-      <section id="conti-feature-antartida" class="conti">
-        <div class="text"><a href="html/antartida/antartida.html">Antártida</a></div>
-      </section>
+          <section id="conti-feature-africa" class="conti">
+            <div class="text"><a href="html/africa/africa.html">África</a></div>
+          </section>
 
-      <section id="conti-feature-asia" class="conti">
-        <div class="text"><a href="html/asia/asia.html">Asia</a></div>
-      </section>
+          <section id="conti-feature-america" class="conti">
+            <div class="text"><a href="html/america/america.html">América</a></div>
+          </section>
 
-      <section id="conti-feature-australia" class="conti">
-        <div class="text"><a href="html/oceania/oceania.html">Oceanía</a></div>
-      </section>
+          <section id="conti-feature-antartida" class="conti">
+            <div class="text"><a href="html/antartida/antartida.html">Antártida</a></div>
+          </section>
 
-      <section id="conti-feature-europa" class="conti">
-        <div class="text"><a href="html/europa/europa.html">Europa</a></div>
-      </section>
+          <section id="conti-feature-asia" class="conti">
+            <div class="text"><a href="html/asia/asia.html">Asia</a></div>
+          </section>
 
-    </article>
-  </article> 
+          <section id="conti-feature-oceania" class="conti">
+            <div class="text"><a href="html/oceania/oceania.html">Oceanía</a></div>
+          </section>
 
-  <div id="footer">
-    <div id="social">
-      <h5>FACEBOOK</h5>
-      <h5>TWITTER</h5>
-      <h5>INSTAGRAM</h5>
-      <h5>GOOGLE</h5>
-      <h5>PINTEREST</h5>
-    </div>
-  </div>
+          <section id="conti-feature-europa" class="conti">
+            <div class="text"><a href="html/europa/europa.html">Europa</a></div>
+          </section>
+
+        </article>
+      </article>
+
+      <div id="footer">
+        <div id="social">
+          <h5>FACEBOOK</h5>
+          <h5>TWITTER</h5>
+          <h5>INSTAGRAM</h5>
+          <h5>GOOGLE</h5>
+          <h5>PINTEREST</h5>
+        </div>
+      </div>
+
+
 </body>
 
 </html>
