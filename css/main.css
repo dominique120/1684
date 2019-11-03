@@ -12,7 +12,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
 body {
     transition: top 0.9s;
@@ -460,8 +460,12 @@ a:visited {
     background-size: cover;
 }
 
+.crousel-text-shadow {
+    text-shadow: 0 0 0.2em #342625, 0 0 0.2em #342625;
+}
+
 .slogan-principal {
-    background-image: url('../img/slide4.jpg');
+    background-image: url('../img/continentes.jpg');
 }
 
 .continente {
@@ -477,10 +481,10 @@ a:visited {
 
 .conti {
     border-radius: 100%;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     background-color: black;
-    margin: 10px;
+    margin: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -490,27 +494,33 @@ a:visited {
 }
 
 #conti-feature-africa {
-    background-image: url('../continentes/chd1.jpg');
+    background-image: url('../img/continents/africa.jpg');
+    background-position: center;
 }
 
 #conti-feature-america {
-    background-image: url('../continentes/chd2.jpg');
+    background-image: url('../img/continents/america.jpg');
+    background-position: center;
 }
 
 #conti-feature-antartida {
-    background-image: url('../continentes/chd3.jpg');
+    background-image: url('../img/continents/antartica.jpg');
+    background-position: center;
 }
 
 #conti-feature-asia {
-    background-image: url('../continentes/chd4.jpg');
+    background-image: url('../img/continents/asia.jpg');
+    background-position: center;
 }
 
 #conti-feature-oceania {
-    background-image: url('../continentes/chd5.jpg');
+    background-image: url('../img/continents/australia.jpg');
+    background-position: center;
 }
 
 #conti-feature-europa {
-    background-image: url('../continentes/chd6.jpg');
+    background-image: url('../img/continents/europe.jpg');
+    background-position: center;
 }
 
 .conti .text, .continente a {
@@ -520,6 +530,7 @@ a:visited {
     display: inline-grid;
     transition: display 0.5s;
     font-size: 24px;
+    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000;
 }
 
 .continente a:hover {
@@ -583,71 +594,48 @@ a:visited {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .caption-1 figcaption {
     position: absolute;
     bottom: 0;
     right: 0;
-  }
-  
-  .caption-2 figcaption {
+}
+
+.caption-2 figcaption {
     width: 80%;
     position: absolute;
     bottom: 1rem;
     left: 10%;
     background: rgba(255, 255, 255, 0.6);
-  }
-  
-  .caption-3 figcaption {
+}
+
+.caption-3 figcaption {
     position: absolute;
     bottom: 0;
     right: 0;
     transform: translateY(-50%);
-  }
-  
-  
-  
-  /*
+}
+
+/*
   *
   * ==========================================
   * FOR DEMO PURPOSES
   * ==========================================
   *
   */
-  
-  body {
+
+body {
     min-height: 100vh;
     background: #eeeeee;
-  }
-  
-  .border-md {
+}
+
+.border-md {
     border-width: 2px !important;
-  }
-  
-  .separator {
+}
+
+.separator {
     border-bottom: 1px dashed #aaa;
-  }
-  
-  .text-small {
+}
+
+.text-small {
     font-size: 0.85rem;
-  }
+}

@@ -1,0 +1,258 @@
+* {
+    max-width: 1200px;
+    margin: 0px;
+    margin: auto;
+}
+
+body {
+    transition: top 0.9s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    z-index: +1;
+}
+
+#all {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: top 0.9s;
+}
+
+#head {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/slide5.jpg');
+    color: white;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu {
+    width: 100%;
+    color: black;
+    margin-top: -16px;
+    position: sticky;
+}
+
+#menu i {
+    display: none;
+    cursor: pointer;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#menu ul li {
+    height: 66px;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    height: 66px;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu #h {
+    display: none;
+}
+
+#menu #social {
+    display: none;
+}
+
+#menu ul li a:hover {
+    background-color: #f1c49b;
+    color: black;
+    height: 60px;
+    border-top: 3px solid #d3a700;
+    border-bottom: 3px solid #d3a700;
+}
+
+#informacion {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabajemos {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cuadro {
+    height: 400px;
+    width: 700px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    animation-name: slideInFromLeft;
+    animation-delay: 0.2s;
+}
+
+#informacion2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuadro2 {
+    justify-content: center;
+    text-align: left;
+    height: 600px;
+    width: 1400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    animation-name: slideInFromLeft;
+    animation-delay: 0.2s;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#informacion h4 {
+    color: #d3a700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#informacion p {
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#continente {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+}
+
+.conti {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conti-feature-africa {
+    background-image: url('../continentes/chd1.jpg');
+}
+
+#conti-feature-america {
+    background-image: url('../continentes/chd2.jpg');
+}
+
+#conti-feature-antarrida {
+    background-image: url('../continentes/chd3.jpg');
+}
+
+#conti-feature-asia {
+    background-image: url('../continentes/chd4.jpg');
+}
+
+#conti-feature-australia {
+    background-image: url('../continentes/chd5.jpg');
+}
+
+#conti-feature-europa {
+    background-image: url('../continentes/chd6.jpg');
+}
+
+.conti .text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: none;
+    transition: display 0.5s;
+    font-size: 24px;
+}
+
+.conti:hover .text {
+    display: block;
+}
+
+.conti:hover {
+    background-image: url('');
+}
+
+#footer {
+    border-top: 3px solid #d3a700;
+    border-bottom: 3px solid #d3a700;
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+}
+
+#footer #social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#footer #social h5 {
+    color: white;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}

@@ -1,25 +1,31 @@
 .slogan-europa {
-    background-image: url('https://blog.tripsology.com/wp-content/uploads/2019/04/shutterstock_796112473.jpg');
+    background-image: url('../html/europa/_img/europe.jpg');
+    background-position: center center;
 }
 
 .slogan-asia {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg');
+    background-position: center center;
 }
 
 .slogan-america {
     background-image: url('http://www.untamedpath.com/wp-content/uploads/andes-1351053_1920.jpg');
+    background-position: center center;
 }
 
 .slogan-africa {
     background-image: url('https://steemitimages.com/DQmU6hRBCwiU4nZxprBHD5JfcRw4GymPxLin7c5Z96LtMWT/seedd.jpg');
+    background-position: center center;
 }
 
 .slogan-antartida {
     background-image: url('https://cdn.britannica.com/07/152307-050-6FD0D3EE/Iceberg-waters-Antarctica.jpg');
+    background-position: center center;
 }
 
 .slogan-oceania {
     background-image: url('https://www.childint.co.uk/media/images/Australia%20new%20photo.jpg');
+    background-position: center center;
 }
 
 .titulo-continente h2 {
@@ -39,3 +45,4 @@
     width: 100%;
     background-color: lightblue;
 }
+
