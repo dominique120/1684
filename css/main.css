@@ -4,6 +4,26 @@
     margin: auto;
 }
 
+#feature-1 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+#feature-2 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+#feature-3 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+.bg-cc {
+    background-position: center center;
+}
+
+h5 {
+    font-size: 20px;
+}
+
 .carousel-item {
     height: 65vh;
     min-height: 350px;
@@ -577,6 +597,14 @@ a:visited {
     width: 100px;
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: white;
 }
 
 /* TEXTO   */
