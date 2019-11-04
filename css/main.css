@@ -382,6 +382,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+}
+
+a:hover {
+    color: white;
 }
 
 #menu #h {
