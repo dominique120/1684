@@ -19,11 +19,7 @@
 .bg-cc {
     background-position: center center;
 }
-
-h5 {
-    font-size: 20px;
-}
-
+ 
 .carousel-item {
     height: 65vh;
     min-height: 350px;
@@ -42,354 +38,7 @@ body {
 #logo {
     z-index: +1;
 }
-
-/*  ultimos viajes */
-
-section#features {
-    width: 0px auto;
-    padding-top: 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-section#features div.grid {
-    display: table-cell;
-    align-items: center;
-    text-align: center;
-    width: calc(100% / 3);
-    margin: 10px 10px 35px 10px;
-}
-
-section#features img.icon {
-    border-radius: 10%;
-    height: 250px;
-}
-
-section#features div.desc {
-    min-width: 180px;
-    line-height: 1.5;
-}
-
-section#features div.desc h2 {
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    margin-bottom: 10px;
-}
-
-@media screen and (max-width: 1419px) {
-    section#features div.grid {
-        display: block;
-        align-items: center;
-        text-align: center;
-        width: calc(100% / 3);
-        margin: 10px 10px 35px 10px;
-    }
-    section#features {
-        padding-top: 80px;
-        display: inline-flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    section#features div.desc {
-        min-width: 300x;
-        line-height: 1.5;
-    }
-    section#features div.desc h2 {
-        text-align: center;
-        font-family: "Open Sans", sans-serif;
-        font-size: 22px;
-        font-weight: 700;
-        letter-spacing: 0.8px;
-        margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    section#features {
-        padding-top: 80px;
-        display: block;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    section#features div.desc {
-        min-width: 430px;
-        line-height: 1.5;
-    }
-}
-
-/*ultimos viajes*/
-
-/*slider*/
-
-.slider, .slider>div {
-    /* Images default to Center Center. Maybe try 'center top'? */
-    background-position: center top;
-    display: block;
-    width: 100%;
-    height: 800px;
-    /* height: 100vh; */
-    /* If you want fullscreen */
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: white;
-    overflow: hidden;
-    -moz-transition: transform .4s;
-    -o-transition: transform .4s;
-    -webkit-transition: transform .4s;
-    transition: transform .4s;
-}
-
-.slider>div {
-    position: absolute;
-}
-
-.slider>i {
-    color: #5bbd72;
-    position: absolute;
-    font-size: 60px;
-    margin: 20px;
-    top: 40%;
-    text-shadow: 0 10px 2px #223422;
-    transition: .3s;
-    width: 30px;
-    padding: 10px 13px;
-    background: #fff;
-    background: rgba(255, 255, 255, .3);
-    cursor: pointer;
-    line-height: 0;
-    box-sizing: content-box;
-    border-radius: 3px;
-    z-index: 4;
-}
-
-.slider>i svg {
-    margin-top: 3px;
-}
-
-.slider>.left {
-    left: -100px;
-}
-
-.slider>.right {
-    right: -100px;
-}
-
-.slider:hover>.left {
-    left: 0;
-}
-
-.slider:hover>.right {
-    right: 0;
-}
-
-.slider>i:hover {
-    background: #fff;
-    background: rgba(255, 255, 255, .8);
-    transform: translateX(-2px);
-}
-
-.slider>i.right:hover {
-    transform: translateX(2px);
-}
-
-.slider>i.right:active, .slider>i.left:active {
-    transform: translateY(1px);
-}
-
-.slider:hover>div {
-    transform: scale(1.01);
-}
-
-.hoverZoomOff:hover>div {
-    transform: scale(1);
-}
-
-.slider>ul {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 4;
-    padding: 0;
-    margin: 0;
-    transform: translateX(-50%);
-}
-
-.logo {
-    top: 100px;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 4;
-    padding: 0;
-    margin: 0;
-    transform: translateX(-50%);
-}
-
-.slider>ul {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    z-index: 4;
-    padding: 0;
-    margin: 0;
-    transform: translateX(-50%);
-}
-
-.slider>ul>li {
-    opacity: 0.5;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    list-style: none;
-    float: left;
-    margin: 10px 10px 20px;
-    cursor: pointer;
-    border: 1px solid black;
-    -moz-transition: .3s;
-    -o-transition: .3s;
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-
-.slider>ul>.showli {
-    opacity: 0.5;
-    background-color: #d3a700;
-    -moz-animation: boing .5s forwards;
-    -o-animation: boing .5s forwards;
-    -webkit-animation: boing .5s forwards;
-    animation: boing .5s forwards;
-}
-
-.slider>ul>li:hover {
-    background-color: #d3a700
-}
-
-.slider>.show {
-    z-index: 1;
-}
-
-.hideDots>ul {
-    display: none;
-}
-
-.showArrows>.left {
-    left: 0;
-}
-
-.showArrows>.right {
-    right: 0;
-}
-
-.titleBar {
-    z-index: 2;
-    display: inline-block;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    transform: translateY(100%);
-    padding: 20px 30px;
-    transition: .3s;
-    color: #fff;
-}
-
-.titleBar * {
-    transform: translate(-20px, 30px);
-    transition: all 700ms cubic-bezier(0.37, 0.31, 0.2, 0.85) 200ms;
-    opacity: 0;
-}
-
-.titleBarTop .titleBar * {
-    transform: translate(-20px, -30px);
-}
-
-.slider:hover .titleBar, .slider:hover .titleBar * {
-    transform: translate(0);
-    opacity: 1;
-}
-
-.titleBarTop .titleBar {
-    top: 0;
-    bottom: initial;
-    transform: translateY(-100%);
-}
-
-.slider>div span {
-    display: block;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    bottom: 0;
-    color: #fff;
-    text-align: left;
-    padding: 0;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    width: 100%;
-}
-
-@keyframes boing {
-    0% {
-        transform: scale(1.2);
-    }
-    40% {
-        transform: scale(.6);
-    }
-    60% {
-        transform: scale(1.2);
-    }
-    80% {
-        transform: scale(.8);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-/*fin slider*/
-
-#menu {
-    width: 100%;
-    color: black;
-    margin-top: -16px;
-    position: sticky;
-}
-
-#menu i {
-    display: none;
-    cursor: pointer;
-}
-
-#menu ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#menu ul li {
-    height: 66px;
-    width: 150px;
-    list-style: none;
-    text-align: center;
-    color: grey;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: black;
-    letter-spacing: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+ 
 a {
     text-decoration: none;
     height: 66px;
@@ -408,65 +57,59 @@ a {
 a:hover {
     color: white;
 }
-
-#menu #h {
-    display: none;
-}
-
-#menu #social {
-    display: none;
-}
-
-#menu ul li a:hover {
-    background-color: #f1c49b;
-    color: black;
-    height: 60px;
-    border-top: 3px solid #d3a700;
-    border-bottom: 3px solid #d3a700;
-}
-
+ 
 a:visited {
     color: inherit;
 }
 
-#informacion {
+
+h5 {
+    font-size: 20px;
+}
+
+
+
+#footer {
+    border-top: 3px solid #d3a700;
+    border-bottom: 3px solid #d3a700;
+    background-color: #1c1c1c;
     width: 100%;
+    height: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    bottom: 0;
+    box-sizing: border-box;
+} 
+
+#footer #social {
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
 }
 
-#cuadro {
-    height: 250px;
-    width: 250px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 25px;
-    margin-left: 120px;
-    margin-bottom: 25px;
-    animation-name: slideInFromLeft;
-    animation-delay: 0.2s;
-}
-
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-
-#informacion h4 {
-    color: #d3a700;
+#footer #social h5 {
+    color: white; 
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    box-sizing: border-box;
+
 }
 
-#informacion p {
-    color: grey;
-    font-family: 'Montserrat', sans-serif;
+#footer a {
+    color: white;
 }
+
+#footer a:hover {
+    color: #6c757d;
+}
+ 
+ 
 
 .slogan {
     width: 100%;
@@ -573,57 +216,8 @@ a:visited {
     color: rgba(0, 0, 0, 0.6);
 }
 
-#footer {
-    border-top: 3px solid #d3a700;
-    border-bottom: 3px solid #d3a700;
-    background-color: #1c1c1c;
-    width: 100%;
-    height: 60px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    bottom: 0;
-}
+ 
 
-#footer #social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#footer #social h5 {
-    color: white;
-    width: 100px;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-}
-
-#footer a {
-    color: white;
-}
-
-#footer a:hover {
-    color: white;
-}
-
-/* TEXTO   */
-
-#titulo {
-    justify-content: center;
-    text-align: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    animation-name: slideInFromLeft;
-    animation-delay: 0.2s;
-}
-
-#trabajemos {
-    font-size: 50px;
-    text-align: center;
-}
 
 .caption-1 figcaption {
     position: absolute;
