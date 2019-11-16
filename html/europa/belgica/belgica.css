@@ -1,0 +1,50 @@
+#feature-bruselas{
+    background-image: url('features/minsk.jpg');
+    background-position: center center;
+}
+
+#feature-brujas{
+    background-image: url('features/slavgorod.jpg');
+    background-position: center center;
+}
+
+#feature-amberes{
+    background-image: url('features/brest.jpeg');
+    background-position: center center;
+}
+
+#feature-gante{
+    background-image: url('features/orsha.jpg');
+    background-position: center center;
+}
+
+#feature-lieja{
+    background-image: url('features/gomel.jpg');
+    background-position: center center;
+}
+ 
+
+.slogan-bruselas {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-brujas {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-amberes {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-gante {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-lieja {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}

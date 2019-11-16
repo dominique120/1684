@@ -1,0 +1,29 @@
+#feature-auckland {
+    background-image: url('features/minsk.jpg');
+    background-position: center center;
+}
+
+#feature-hamilton{
+    background-image: url('features/slavgorod.jpg');
+    background-position: center center;
+}
+
+#feature-rotorua {
+    background-image: url('features/brest.jpeg');
+    background-position: center center;
+}
+
+#feature-wellington {
+    background-image: url('features/orsha.jpg');
+    background-position: center center;
+}
+
+#feature-Bluff {
+    background-image: url('features/gomel.jpg');
+    background-position: center center;
+}
+ 
+.slogan-auckland {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}

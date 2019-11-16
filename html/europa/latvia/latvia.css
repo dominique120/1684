@@ -1,0 +1,19 @@
+#feature-riga {
+    background-image: url('features/minsk.jpg');
+    background-position: center center;
+}
+
+#feature-daugavpils{
+    background-image: url('features/slavgorod.jpg');
+    background-position: center center;
+}
+
+#feature-liepaja{
+    background-image: url('features/brest.jpeg');
+    background-position: center center;
+} 
+
+.slogan-minsk {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}

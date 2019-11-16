@@ -1,0 +1,19 @@
+#feature-portmoresby {
+    background-image: url('features/minsk.jpg');
+    background-position: center center;
+}
+
+#feature-milnebay {
+    background-image: url('features/slavgorod.jpg');
+    background-position: center center;
+}
+
+#feature-lae{
+    background-image: url('features/brest.jpeg');
+    background-position: center center;
+} 
+
+.slogan-portmoresby {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}

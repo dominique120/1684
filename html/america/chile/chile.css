@@ -1,4 +1,4 @@
-#feature-santiago {
+﻿#feature-santiago {
     background-image: url('https://blogs.funiber.org/wp-content/uploads/2018/10/funiber-santiago-chile.jpeg');
 }
 
@@ -17,3 +17,34 @@
 #feature-antofagasta {
     background-image: url('http://conociendochile.com/wp-content/uploads/2018/02/antofagasta-chile-18.jpg');
 }
+
+------ 
+
+.slogan-santiago {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-iquique {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+
+.slogan-valparaiso {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-viñadelmar {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+
+.slogan-antofagasta {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+ 

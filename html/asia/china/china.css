@@ -1,0 +1,45 @@
+#feature-beijing{
+    background-image: url('https://www.elsiglodetorreon.com.mx/m/i/2019/09/1228835.jpeg');
+}
+
+#feature-guangzhou {
+    background-image: url('http://www.smarttravelpanama.com/wp-content/uploads/2018/02/Mendoza1.jpg');
+}
+
+#feature-shanghai {
+    background-image: url('https://therealargentina.com/wp-content/uploads/2015/05/Monumento-Nacional-a-la-Bandera23.jpg');
+}
+
+#feature-guilin {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b5/Catedral_de_La_Plata_03.JPG');
+}
+
+#feature-xian {
+    background-image: url('https://cdn.civitatis.com/argentina/salta/galeria/quebrada-conchas.jpg');
+}
+
+.slogan-beijing{
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-guangzhou {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-guilin {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+
+.slogan-shanghai {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-xian {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}

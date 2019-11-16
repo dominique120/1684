@@ -1,0 +1,34 @@
+#feature-madrid {
+    background-image: url('features/minsk.jpg');
+    background-position: center center;
+}
+
+#feature-barcelona{
+    background-image: url('features/slavgorod.jpg');
+    background-position: center center;
+}
+
+#feature-valencia {
+    background-image: url('features/brest.jpeg');
+    background-position: center center;
+}
+
+#feature-sevilla {
+    background-image: url('features/orsha.jpg');
+    background-position: center center;
+}
+
+#feature-zaragoza {
+    background-image: url('features/gomel.jpg');
+    background-position: center center;
+}
+
+#feature-malaga {
+    background-image: url('features/mogilev.jpg');
+    background-position: center center;
+}
+
+.slogan-madrid {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}

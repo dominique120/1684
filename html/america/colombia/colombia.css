@@ -17,3 +17,34 @@
 #feature-barranquilla {
     background-image: url('https://static.hosteltur.com/app/public/uploads/img/articles/2016/02/01/L_5c1a46cf21222_Barranquilla-colombia.jpg');
 }
+
+------ 
+
+.slogan-bogota {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-cartagena {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+
+.slogan-medellin {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-cali {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+
+.slogan-barranquilla {
+    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-position: center center;
+}
+
+ 
