@@ -37,3 +37,8 @@
     background-image: url('../europa/_img/countries/italy.jpg');
     background-position: center center;
 }
+
+#slogan-europa {
+    background-image: url('../europa/_img/europe.jpg');
+    background-position: center center;
+}
