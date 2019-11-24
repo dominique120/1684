@@ -1,31 +1,31 @@
-#feature-berlin{
-    background-image: url('features/minsk.jpg');
+#feature-berlin {
+    background-image: url('features/berlin.jpeg');
     background-position: center center;
 }
 
 #feature-munich {
-    background-image: url('features/slavgorod.jpg');
+    background-image: url('features/munich.jpg');
     background-position: center center;
 }
 
 #feature-frankfurt {
-    background-image: url('features/brest.jpeg');
+    background-image: url('features/frankfurt.jpg');
     background-position: center center;
 }
 
 #feature-hamburgo {
-    background-image: url('features/orsha.jpg');
+    background-image: url('features/hamburgo.jpg');
     background-position: center center;
 }
 
 #feature-colonia {
-    background-image: url('features/gomel.jpg');
+    background-image: url('features/colonia.jpg');
     background-position: center center;
 }
  
 
 .slogan-berlin{
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('ciudades/_img/berlin/_banner.jpg');
     background-position: center center;
 }
 .slogan-munich {
