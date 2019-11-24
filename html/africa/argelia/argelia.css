@@ -1,11 +1,28 @@
-#feature-1 {
-    background-image: url('https://via.placeholder.com/300.png');
+#feature-constantina {
+    background-image: url('features/constantina.jpg');
+    background-position: center center;
+
 }
 
-#feature-2 {
-    background-image: url('https://via.placeholder.com/300.png');
+#feature-timgad {
+    background-image: url('features/timgad.jpg');
+    background-position: center center;
+
 }
 
-#feature-3 {
-    background-image: url('https://via.placeholder.com/300.png');
+#feature-argel {
+    background-image: url('features/argel.jpj');
+    background-position: center center;
+
+}
+
+#feature-oran {
+    background-image: url('features/oran.jpg');
+    background-position: center center;
+
+}
+
+.slogan-constantina {
+    background-image: url('ciudades/_img/constantina/_banner.jpg');
+    background-position: center center;
 }
