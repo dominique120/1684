@@ -18,9 +18,7 @@
     background-image: url('https://2.bp.blogspot.com/-Bqgo0hZvpYg/WVmV1DxFC2I/AAAAAAACQc8/hfiM51sk1yspBtPizNMCPdOfbM9ilyfLwCLcBGAs/s640/uruguay%2Bscenic%2B003.jpg');
 }
 
----------------
-
-.slogan-montevideo {
+ .slogan-montevideo {
     background-image: url('ciudades/_img/minsk/_banner.jpg');
     background-position: center center;
 }
@@ -29,7 +27,6 @@
     background-image: url('ciudades/_img/minsk/_banner.jpg');
     background-position: center center;
 }
-
 
 .slogan-salto {
     background-image: url('ciudades/_img/minsk/_banner.jpg');
@@ -40,7 +37,7 @@
     background-image: url('ciudades/_img/minsk/_banner.jpg');
     background-position: center center;
 }
- 
+
 .slogan-maldonado {
     background-image: url('ciudades/_img/minsk/_banner.jpg');
     background-position: center center;

@@ -8,44 +8,44 @@
     background-position: center center;
 }
 
-.slogan-alemania{
+.slogan-alemania {
     background-image: url('../html/europa/alemania/alemania.jpg');
     background-position: center center;
 }
 
-.slogan-espana{
+.slogan-espana {
     background-image: url('../html/europa/españa/españa.jpg');
     background-position: center center;
 }
-.slogan-italia{
+
+.slogan-italia {
     background-image: url('../html/europa/italia/italia.jpg');
     background-position: center center;
 }
 
 /* africa*/
 
-.slogan-argelia{
+.slogan-argelia {
     background-image: url('../html/africa/argelia/argelia.jpg');
     background-position: center center;
 }
 
-
-.slogan-marfil{
+.slogan-marfil {
     background-image: url('../html/africa/marfil/marfil.jpg');
     background-position: center center;
 }
 
-.slogan-egipto{
+.slogan-egipto {
     background-image: url('../html/africa/egipto/egipto.jpg');
     background-position: center center;
-} 
+}
 
-.slogan-marruecos{
+.slogan-marruecos {
     background-image: url('../html/africa/marruecos/marruecos.jpg');
     background-position: center center;
-} 
+}
 
-.slogan-nigeria{
+.slogan-nigeria {
     background-image: url('../html/africa/nigeria/nigeria.jpg');
     background-position: center center;
 }

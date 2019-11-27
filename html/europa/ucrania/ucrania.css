@@ -1,4 +1,4 @@
-#feature-kiev{
+#feature-kiev {
     background-image: url('features/minsk.jpg');
     background-position: center center;
 }
@@ -16,7 +16,7 @@
 #feature-odesa {
     background-image: url('features/orsha.jpg');
     background-position: center center;
-} 
+}
 
 .slogan-minsk {
     background-image: url('ciudades/_img/minsk/_banner.jpg');

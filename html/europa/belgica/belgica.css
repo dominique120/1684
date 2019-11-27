@@ -1,28 +1,27 @@
-#feature-bruselas{
+#feature-bruselas {
     background-image: url('features/brussels.jpg');
     background-position: center center;
 }
 
-#feature-brujas{
+#feature-brujas {
     background-image: url('features/brugge.jpg');
     background-position: center center;
 }
 
-#feature-amberes{
+#feature-amberes {
     background-image: url('features/antwerp.jpg');
     background-position: center center;
 }
 
-#feature-gante{
+#feature-gante {
     background-image: url('features/ghent.jpg');
     background-position: center center;
 }
 
-#feature-lieja{
+#feature-lieja {
     background-image: url('features/liege.JPG');
     background-position: center center;
 }
- 
 
 .slogan-bruselas {
     background-image: url('ciudades/_img/bruselas/brussels.jpg');
