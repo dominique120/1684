@@ -1,0 +1,9 @@
+#feature-arequipa {
+    background-image: url('features/arequipa.jpg');
+    background-position: center center;
+}
+
+.slogan-arequipa {
+    background-image: url('ciudades/_img/arequipa/_banner.jpg');
+    background-position: center center;
+}
