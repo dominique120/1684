@@ -22,3 +22,28 @@
     background-image: url('features/malaga.jpg');
     background-position: center center;
 }
+
+.slogan-barcelona {
+    background-image: url('ciudades/_img/barcelona/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-valencia {
+    background-image: url('ciudades/_img/valencia/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-sevilla {
+    background-image: url('ciudades/_img/sevilla/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-zaragoza {
+    background-image: url('ciudades/_img/zaragoza/_banner.jpg');
+    background-position: center center;
+}
+
+.slogan-malaga {
+    background-image: url('ciudades/_img/malaga/_banner.jpg');
+    background-position: center center;
+}
