@@ -1,29 +1,29 @@
 #feature-roma {
-    background-image: url('features/minsk.jpg');
+    background-image: url('features/roma.jpg');
     background-position: center center;
 }
 
 #feature-milan{
-    background-image: url('features/slavgorod.jpg');
+    background-image: url('features/milan.jpg');
     background-position: center center;
 }
 
 #feature-napoles {
-    background-image: url('features/brest.jpeg');
+    background-image: url('features/napoles.jpg');
     background-position: center center;
 }
 
 #feature-turin{
-    background-image: url('features/orsha.jpg');
+    background-image: url('features/turin.jpg');
     background-position: center center;
 }
 
 #feature-palermo {
-    background-image: url('features/gomel.jpg');
+    background-image: url('features/palermo.jpg');
     background-position: center center;
 }
  
-.slogan-minsk {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+.slogan-roma {
+    background-image: url('ciudades/_img/roma/_banner.jpg');
     background-position: center center;
 }
