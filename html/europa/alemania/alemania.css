@@ -22,24 +22,27 @@
     background-image: url('features/colonia.jpg');
     background-position: center center;
 }
- 
 
 .slogan-berlin {
     background-image: url('ciudades/_img/berlin/_banner.jpg');
     background-position: center center;
 }
+
 .slogan-munich {
     background-image: url('ciudades/_img/munich/_banner.jpg');
     background-position: center center;
 }
+
 .slogan-frankfurt {
     background-image: url('ciudades/_img/frankfurt/_banner.jpg');
     background-position: center center;
 }
+
 .slogan-hamburgo {
     background-image: url('ciudades/_img/hamburgo/_banner.jpg');
     background-position: center center;
 }
+
 .slogan-colonia {
     background-image: url('ciudades/_img/colonia/_banner.jpg');
     background-position: center center;

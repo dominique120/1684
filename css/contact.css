@@ -30,10 +30,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
 
- 
- 
 #informacion {
     width: 100%;
     display: flex;
@@ -51,7 +48,6 @@ h3 {
 }
 
 form {
-
     border: 3px solid goldenrod;
     margin: 20px;
     padding: 20px;
@@ -77,9 +73,7 @@ form {
     animation-name: slideInFromLeft;
     animation-delay: 0.2s;
 }
- 
 
-  
 h4 {
     color: #d3a700;
     font-family: 'Montserrat', sans-serif;
@@ -93,7 +87,7 @@ p {
     color: grey;
     font-family: 'Montserrat', sans-serif;
 }
- 
+
 #cuadro3 {
     height: 400px;
     width: 700px;
@@ -105,4 +99,3 @@ p {
     margin-left: 15px;
     margin-bottom: 5px;
 }
-  

@@ -20,8 +20,8 @@
 
 
 <body id="all">
-  <div id="footer">
-    <div id="social">
+  <div class="footer">
+    <div class="social">
       <h5><a class="feature-link" href="../index.html">INICIO</a></h5>
       <h5><a class="feature-link" href="acerca_de.html">ACERCA DE</a></h5>
       <h5><a class="feature-link" href="destinos.html">DESTINOS</a></h5>
@@ -49,88 +49,88 @@
   </div>
 
   <div id="formulario">
-      <h3>Formulario de postulantes:</h3>
-      <form name="formulario" method="get" autocomplete="on">
+    <h3>Formulario de postulantes:</h3>
+    <form name="formulario" method="get" autocomplete="on">
 
-        <table>
-          <tr>
-            <td>Nombre: </td>
-            <td><input type="text" name="nombre" id="nombre" required></td>
-          </tr>
-          <tr>
-            <td>Apellido: </td>
-            <td><input type="text" name="apellido" id="apellido" required></td>
-          </tr>
-          <tr>
-            <td>E-mail: </td>
-            <td><input type="text" email name="email" id="email" required></td>
-          </tr>
-          <tr>
-            <datalist id="listado">
-              <option value="912546" label="telefono1"></option>
-              <option value="912547" label="telefono2"></option>
-            </datalist>
-            <td>Teléfono: </td>
-            <td><input type="tel" name="tel" id="tel" list="listado"></td>
-          </tr>
-          <tr>
-            <td>Edad: </td>
-            <td><input type="number" name="edad" id="edad" placeholder="Ingrese edad de 18 a 65" min="18" max="65"></td>
-          </tr>
-          <tr>
-            <td>Sexo: </td>
-            <td><input type="radio" name="genero" value="masculino"> Masculino<br>
-              <input type="radio" name="genero" value="femenino"> Femenino</td>
-          </tr>
+      <table>
+        <tr>
+          <td>Nombre: </td>
+          <td><input type="text" name="nombre" id="nombre" required></td>
+        </tr>
+        <tr>
+          <td>Apellido: </td>
+          <td><input type="text" name="apellido" id="apellido" required></td>
+        </tr>
+        <tr>
+          <td>E-mail: </td>
+          <td><input type="text" email name="email" id="email" required></td>
+        </tr>
+        <tr>
+          <datalist id="listado">
+            <option value="912546" label="telefono1"></option>
+            <option value="912547" label="telefono2"></option>
+          </datalist>
+          <td>Teléfono: </td>
+          <td><input type="tel" name="tel" id="tel" list="listado"></td>
+        </tr>
+        <tr>
+          <td>Edad: </td>
+          <td><input type="number" name="edad" id="edad" placeholder="Ingrese edad de 18 a 65" min="18" max="65"></td>
+        </tr>
+        <tr>
+          <td>Sexo: </td>
+          <td><input type="radio" name="genero" value="masculino"> Masculino<br>
+            <input type="radio" name="genero" value="femenino"> Femenino</td>
+        </tr>
 
-          <tr>
-            <td>Rubro Educativo: </td>
-            <td>
-              <select name="facultad">
-                <optgroup label="Programa 1">
-                  <option value="ciencias" selected>Ciencias</option>
-                  <option value="letras" selected>Letras</option>
-                </optgroup>
-                <optgroup label="Programa 2">
-                  <option value="tecnologia" selected>Tecnología</option>
-                  <option value="diseño" selected>Diseño</option>
-                </optgroup>
-              </select>
-            </td>
-          </tr>
+        <tr>
+          <td>Rubro Educativo: </td>
+          <td>
+            <select name="facultad">
+              <optgroup label="Programa 1">
+                <option value="ciencias" selected>Ciencias</option>
+                <option value="letras" selected>Letras</option>
+              </optgroup>
+              <optgroup label="Programa 2">
+                <option value="tecnologia" selected>Tecnología</option>
+                <option value="diseño" selected>Diseño</option>
+              </optgroup>
+            </select>
+          </td>
+        </tr>
 
-          <tr>
-            <td>Estudios Superiores: </td>
-            <td>
-              <input type="checkbox" name="tecnico" value="tecnico"> Técnico<br>
-              <input type="checkbox" name="universitario" value="universitario"> Universitario<br>
-            </td>
-          </tr>
+        <tr>
+          <td>Estudios Superiores: </td>
+          <td>
+            <input type="checkbox" name="tecnico" value="tecnico"> Técnico<br>
+            <input type="checkbox" name="universitario" value="universitario"> Universitario<br>
+          </td>
+        </tr>
 
-          <tr>
-            <td>Experiencia: </td>
-            <td><input type="range" name="exp" id="exp" min="5" max="100"></td>
-          </tr>
+        <tr>
+          <td>Experiencia: </td>
+          <td><input type="range" name="exp" id="exp" min="5" max="100"></td>
+        </tr>
 
-          <tr>
-            <td colspan="2">
-              <textarea name="message" rows="2" cols="40">
+        <tr>
+          <td colspan="2">
+            <textarea name="message" rows="2" cols="40">
           </textarea>
-            </td>
-          </tr>
-          <tr>
-            <td>Fecha de nacimiento: </td>
-            <td><input type="date" name="date" id="date"></td>
-          </tr>
+          </td>
+        </tr>
+        <tr>
+          <td>Fecha de nacimiento: </td>
+          <td><input type="date" name="date" id="date"></td>
+        </tr>
 
 
-          <tr>
-            <td><input type="submit" value="enviar" id="enviar"></td>
-          </tr>
-        </table>
+        <tr>
+          <td><input type="submit" value="enviar" id="enviar"></td>
+        </tr>
+      </table>
 
-      </form>
-    </div>
+    </form>
+  </div>
 
   <section class="containit" style="display: block; justify-content: center; ">
 
@@ -142,8 +142,9 @@
     </div>
 
 
-    <div class="" style="width: 500px; margin-bottom: 50px; margin-top: 50px; text-align: center;" >
-        <h4 class="trabajemos" style="width: max-content;text-align: center;margin-left: -75px;">¿Por qué somos la mejor opción? </h4>
+    <div class="" style="width: 500px; margin-bottom: 50px; margin-top: 50px; text-align: center;">
+      <h4 class="trabajemos" style="width: max-content;text-align: center;margin-left: -75px;">¿Por qué somos la mejor
+        opción? </h4>
       <p><br>No sólo encontramos los mejores planes, sino que los <strong>disfrutamos en primera persona</strong><br>
         para estar seguros de que te van a gustar. Porque la <strong>diversión no es una
           teoría, es una práctica.</strong><br><br>
@@ -154,14 +155,14 @@
   </section>
 
 
-  <div id="footer">
-      <div id="social">
-        <h5><a class="feature-link" href="">FACEBOOK</a></h5>
-        <h5><a class="feature-link" href="">TWITTER</a></h5>
-        <h5><a class="feature-link" href="">INSTAGRAM</a></h5>
-        
-      </div>
+  <div class="footer">
+    <div class="social">
+      <h5><a class="feature-link" href="">FACEBOOK</a></h5>
+      <h5><a class="feature-link" href="">TWITTER</a></h5>
+      <h5><a class="feature-link" href="">INSTAGRAM</a></h5>
+
     </div>
+  </div>
 
 
 </body>
