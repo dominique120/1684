@@ -1,15 +1,9 @@
- 
+ #feature-santacruz {
+     background-image: url('features/santacruz.jpg');
+     background-position: center center;
+ }
 
-#feature-santacruz {
-    background-image: url('features/santacruz.jpg');
-    background-position: center center;
-}
- 
- 
- 
-.slogan-santacruz{
-    background-image: url('features/santacruz.jpg');
-    background-position: center center;
-}
- 
- 
+ .slogan-santacruz {
+     background-image: url('features/santacruz.jpg');
+     background-position: center center;
+ }
