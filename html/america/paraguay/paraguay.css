@@ -1,48 +1,10 @@
 #feature-asuncion {
-    background-image: url('http://3.cdnpt.com/Destinations/1693/1693/asuncion-3952423221-L.jpg');
+    background-image: url('features/asuncion.jpg');
+    background-position: center center;
 }
-
-#feature-sanlorenzo {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8b/Catedral_de_San_Lorenzo_durante_un_10_de_Agosto.JPG');
-}
-
-#feature-encarnacion {
-    background-image: url('https://sobreturismo.es/files/Encarnaci%C3%B3n-avenida-Costanera.jpg');
-}
-
-#feature-lambare {
-    background-image: url('https://www.mundiario.com/media/mundiario/images/2018/03/05/2018030513573934052.jpg');
-}
-
-#feature-aregua {
-    background-image: url('http://www.portalguarani.com/userfiles/images/Juan%20De%20Dios%20Valdez/juan%20de%20dios%20valdez%20paisajes%20de%20aregua%20reg%202011%2003.jpg');
-}
-
----------------
-
+  
 .slogan-asuncion {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('ciudades/_img/asuncion/_banner.jpg');
     background-position: center center;
 }
-
-.slogan-sanlorenzo {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-encarnacion {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-lambare {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-aregua {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
+ 

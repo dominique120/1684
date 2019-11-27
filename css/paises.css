@@ -49,3 +49,55 @@
     background-image: url('../html/africa/nigeria/nigeria.jpg');
     background-position: center center;
 }
+
+/*america*/
+
+.slogan-argentina{
+    background-image: url('../html/america/argentina/argentina.jpg');
+    background-position: center center;
+}
+
+.slogan-bolivia{
+    background-image: url('../html/america/bolivia/bolivia.jpg');
+    background-position: center center;
+}
+
+.slogan-brasil{
+    background-image: url('../html/america/brasil/brasil.jpg');
+    background-position: center center;
+}
+
+.slogan-chile{
+    background-image: url('../html/america/chile/chile.jpg');
+    background-position: center center;
+}
+
+.slogan-colombia{
+    background-image: url('../html/america/colombia/colombia.jpg');
+    background-position: center center;
+}
+
+.slogan-ecuador{
+    background-image: url('../html/america/ecuador/ecuador.jpg');
+    background-position: center center;
+}
+
+.slogan-mexico{
+    background-image: url('../html/america/mexico/mexico.jpg');
+    background-position: center center;
+}
+
+.slogan-paraguay{
+    background-image: url('../html/america/paraguay/paraguay.jpg');
+    background-position: center center;
+}
+
+.slogan-peru{
+    background-image: url('../html/america/peru/peru.jpg');
+    background-position: center center;
+}
+
+.slogan-uruguay{
+    background-image: url('../html/america/uruguay/uruguay.jpg');
+    background-position: center center;
+}

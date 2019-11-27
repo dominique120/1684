@@ -1,48 +1,14 @@
-#feature-ciudad {
-    background-image: url('https://elviajista.com/wp-content/uploads/2019/05/dondealojarseenciudaddemexico.jpg');
-}
+ 
 
 #feature-puebla {
-    background-image: url('https://polarsteps.s3.amazonaws.com/u_311770/dc943144-36ff-4183-a291-c0facb2ae982_7636BC31-A280-4ABE-BB44-E6B99691ED7A.jpg');
-}
-
-#feature-guadalajara {
-    background-image: url('https://www.eternal-expat.com/wp-content/uploads/2018/11/DSC_7270.jpg');
-}
-
-#feature-monterrey {
-    background-image: url('https://cdn.forbes.com.mx/2014/04/centro-monterrey.jpg');
-}
-
-#feature-cancun {
-    background-image: url('https://www.aviatur.com/source/contenidos/conece-las-playas-de-cancun-famosas-en-el-mundo.jpg');
-}
-
------- 
-
-.slogan-ciudad {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('features/puebla.jpg');
     background-position: center center;
-}
+}  
+ 
 
 .slogan-puebla {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    
+    background-image: url('ciudades/_img/puebla/_banner.jpg');
     background-position: center center;
 }
-
-
-.slogan-guadalajara {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-monterrey {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-cancun {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
+ 

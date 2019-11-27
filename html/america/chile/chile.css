@@ -1,49 +1,13 @@
-﻿#feature-santiago {
-    background-image: url('https://blogs.funiber.org/wp-content/uploads/2018/10/funiber-santiago-chile.jpeg');
-}
-
-#feature-iquique {
-    background-image: url('http://www.turismochile.com/wp-content/uploads/2015/11/turismochile_iquique2.jpg');
-}
-
-#feature-valparaiso {
-    background-image: url('https://chile.travel/wp-content/uploads/bfi_thumb/Valparaiso-sernatur-DST141-mpo6dds5f65xa0kiblu9gr8m91xtljdki30tip6lyo.jpg');
-}
-
-#feature-viñadelmar {
-    background-image: url('https://images.bestday.com/_lib/images/editorial/Vacaciones-Vina-Mar/Main.jpg');
-}
+﻿ 
 
 #feature-antofagasta {
-    background-image: url('http://conociendochile.com/wp-content/uploads/2018/02/antofagasta-chile-18.jpg');
-}
-
------- 
-
-.slogan-santiago {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('features/antofagasta.jpg');
     background-position: center center;
 }
-
-.slogan-iquique {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-valparaiso {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-viñadelmar {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
+ 
+ 
 .slogan-antofagasta {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('features/antofagasta.jpg');
     background-position: center center;
 }
 

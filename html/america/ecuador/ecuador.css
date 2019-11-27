@@ -1,50 +1,11 @@
 #feature-quito {
-    background-image: url('http://www.elheraldo.com.ec/wp-content/uploads/2018/09/free-historical-center-tour-of-quito-01.jpg');
+    background-image: url('features/quito.jpg');
+    background-position: center center;
 }
-
-#feature-guayaquil {
-    background-image: url('https://encolombia.com/wp-content/uploads/2012/12/Turismo-en-Guayaquil.png');
-}
-
-#feature-cuenca {
-    background-image: url('https://www.liveandinvestoverseas.com/wp-content/uploads/2018/11/cuenca-ecuador-800x570.jpg');
-}
-
-#feature-ambato {
-    background-image: url('https://i.ytimg.com/vi/EOdo0V241Rk/maxresdefault.jpg');
-}
-
-#feature-manta {
-    background-image: url('http://3.cdnpt.com/Destinations/319/319/san-pablo-de-manta-1749639590-L.jpg');
-}
-
------- 
+  
 
 .slogan-quito {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('ciudades/_img/quito/_banner.jpg');
     background-position: center center;
 }
-
-.slogan-guayaquil {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-cuenca {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-ambato {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-manta {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
  

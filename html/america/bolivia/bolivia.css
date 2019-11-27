@@ -1,41 +1,15 @@
-#feature-lapaz {
-    background-image: url('https://www.eldiario.net/noticias/2019/2019_06/nt190628/f_2019-06-28_42.jpg');
-}
-
-#feature-santacruz {
-    background-image: url('https://misionaltours.com/timthumb.php?src=https://misionaltours.com/wadm/imagenes/producto/31_05_2019_16_04_42_170716201.png&w=800&h=600&q=100');
-}
-
-#feature-cochabamba {
-    background-image: url('https://a.jtcstatic.com/upload/auto/airports/images/600x315/cbb.jpg');
-}
-
-#feature-sucre {
-    background-image: url('https://i.ytimg.com/vi/q_JgzJsjEyM/maxresdefault.jpg');
-}
-
-#feature-oruro {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e5/Oruro%2C_Bolivia-0.jpg');
-}
  
 
-.slogan-oruro{
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+#feature-santacruz {
+    background-image: url('features/santacruz.jpg');
     background-position: center center;
 }
-
-.slogan-cochabamba{
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
+ 
+ 
+ 
 .slogan-santacruz{
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('features/santacruz.jpg');
     background-position: center center;
 }
-
-
-.slogan-sucre{
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
+ 
+ 

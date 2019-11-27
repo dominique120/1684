@@ -1,49 +1,11 @@
 #feature-arequipa {
-    background-image: url('https://oopsibookedagain.com/wp-content/uploads/2019/03/Arequipa-Sunset.jpg');
+    background-image: url('features/arequipa.jpg');
+    background-position: center center;
 }
-
-#feature-cusco {
-    background-image: url('https://www.nomadicchica.com/wp-content/uploads/2018/02/Cusco-Peru-Machu-Picchu-nomadicchica.com-28.jpg');
-}
-
-#feature-trujillo {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Cathedral_of_Trujillo%2C_Peru_02.jpg/1200px-Cathedral_of_Trujillo%2C_Peru_02.jpg');
-}
-
-#feature-huaraz {
-    background-image: url('https://www.huarazturismo.com/gal/ciudad-huaraz1.jpg');
-}
-
-#feature-lima {
-    background-image: url('https://www.worldatlas.com/r/w728-h425-c728x425/upload/c0/ac/d7/lima-capital-city-of-peru.jpg');
-}
-
-
----------------
-
+ 
+ 
 .slogan-arequipa {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('ciudades/_img/arequipa/_banner.jpg');
     background-position: center center;
 }
-
-.slogan-cusco {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-trujillo {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-lima {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-huaraz {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
+ 

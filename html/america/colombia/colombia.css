@@ -1,50 +1,12 @@
 #feature-bogota {
-    background-image: url('https://silice.si/noticias/wp-content/uploads/2017/02/Bogota-Colombia-1024x683.jpg');
+    background-image: url('features/bogota.jpg');
+    background-position: center center;
 }
-
-#feature-cartagena {
-    background-image: url('https://www.avianca.com/content/dam/avianca_new/destinos/semana/ctg/1-porque-visitarla/destino-cartagena-colombia-para-conocer-la-catedral-santa-catalina-de-alejandr%C3%ADa.jpg');
-}
-
-#feature-medellin {
-    background-image: url('https://www.tripsavvy.com/thmb/6es96j7T4BG2O1UqyO-i7bdirDE=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/15917904454_032f6547dc_o-596bdfb35f9b582c35767c6e.jpg');
-}
-
-#feature-cali {
-    background-image: url('https://img.theculturetrip.com/768x432/wp-content/uploads/2017/11/santiago_de_cali-1.jpg');
-}
-
-#feature-barranquilla {
-    background-image: url('https://static.hosteltur.com/app/public/uploads/img/articles/2016/02/01/L_5c1a46cf21222_Barranquilla-colombia.jpg');
-}
-
------- 
-
+ 
+ 
+ 
 .slogan-bogota {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('features/bogota.jpg');
     background-position: center center;
 }
-
-.slogan-cartagena {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-medellin {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-cali {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-
-.slogan-barranquilla {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
  
