@@ -3,26 +3,9 @@
     background-position: center center;
 
 }
-
-#feature-timgad {
-    background-image: url('features/timgad.jpg');
-    background-position: center center;
-
-}
-
-#feature-argel {
-    background-image: url('features/argel.jpj');
-    background-position: center center;
-
-}
-
-#feature-oran {
-    background-image: url('features/oran.jpg');
-    background-position: center center;
-
-}
+ 
 
 .slogan-constantina {
-    background-image: url('ciudades/_img/constantina/_banner.jpg');
+    background-image: url('features/constantina.jpg');
     background-position: center center;
 }

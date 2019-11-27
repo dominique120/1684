@@ -1,0 +1,10 @@
+#feature-elcairo {
+    background-image: url('features/elcairo.jpg');
+    background-position: center center;
+
+} 
+
+.slogan-elcairo {
+    background-image: url('ciudades/_img/elcairo/_banner.jpg');
+    background-position: center center;
+}

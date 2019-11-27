@@ -1,0 +1,10 @@
+#feature-marrakech {
+    background-image: url('features/marrakech.jpg');
+    background-position: center center;
+
+}
+ 
+.slogan-marrakech {
+    background-image: url('ciudades/_img/marrakech/_banner.jpg');
+    background-position: center center;
+}

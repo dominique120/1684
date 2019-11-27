@@ -1,27 +1,31 @@
+/* imagenes de los circulos de paises */
+
 #feature-argelia {
-    background-image: url('https://www.almadeviajante.com/wp-content/uploads/djemila-argelia.jpg');
+    background-image: url('../africa/_img/countries/argelia.jpg');
     background-position: center center;
 }
 
 #feature-marfil {
-    background-image: url('http://farm8.staticflickr.com/7366/10587303554_78b4f70c42_o.jpg');
+    background-image: url('../africa/_img/countries/marfil.jpg');
     background-position: center center;
 }
 
 #feature-egipto {
-    background-image: url('https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxjuniorpreguntas-y-respuestas1406piramides-de-egipto-1024x768.imgo_.jpg');
+    background-image: url('../africa/_img/countries/egipto.jpg');
     background-position: center center;
 }
 
 #feature-marruecos {
-    background-image: url('http://img2.rtve.es/v/4710183?w=1600&preview=1564652317367.jpg');
+    background-image: url('../africa/_img/countries/marruecos.jpg');
     background-position: center center;
 }
 
 #feature-nigeria {
-    background-image: url('http://elcuchara.es/wp-content/uploads/africando-chad-lago-chad-5.jpg');
+    background-image: url('../africa/_img/countries/nigeria.jpg');
     background-position: center center;
 }
+
+/* banner pricipal de africa */
 
 #slogan-africa {
     background-image: url('../africa/_img/africa.jpg');
