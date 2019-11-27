@@ -1,12 +1,9 @@
-﻿ 
+﻿ #feature-antofagasta {
+     background-image: url('features/antofagasta.jpg');
+     background-position: center center;
+ }
 
-#feature-antofagasta {
-    background-image: url('features/antofagasta.jpg');
-    background-position: center center;
-}
- 
- 
-.slogan-antofagasta {
-    background-image: url('features/antofagasta.jpg');
-    background-position: center center;
-}
+ .slogan-antofagasta {
+     background-image: url('features/antofagasta.jpg');
+     background-position: center center;
+ }

@@ -1,14 +1,9 @@
- 
+ #feature-puebla {
+     background-image: url('features/puebla.jpg');
+     background-position: center center;
+ }
 
-#feature-puebla {
-    background-image: url('features/puebla.jpg');
-    background-position: center center;
-}  
- 
-
-.slogan-puebla {
-    
-    background-image: url('ciudades/_img/puebla/_banner.jpg');
-    background-position: center center;
-}
- 
+ .slogan-puebla {
+     background-image: url('ciudades/_img/puebla/_banner.jpg');
+     background-position: center center;
+ }

@@ -1,11 +1,9 @@
 #feature-riodejaneiro {
-   background-image: url('features/riodejaneiro.jpg');
-background-position: center center;
-} 
- 
+    background-image: url('features/riodejaneiro.jpg');
+    background-position: center center;
+}
 
 .slogan-riodejaneiro {
     background-image: url('ciudades/_img/riodejaneiro/_banner.jpg');
     background-position: center center;
 }
- 
