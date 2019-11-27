@@ -1,9 +1,7 @@
-#feature-arequipa {
-    background-image: url('features/arequipa.jpg');
+ 
+ 
+.slogan-isladecepcion {
+    background-image: url('ciudades/_img/isladecepcion/_banner.jpg');
     background-position: center center;
 }
-
-.slogan-arequipa {
-    background-image: url('ciudades/_img/arequipa/_banner.jpg');
-    background-position: center center;
-}
+  

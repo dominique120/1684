@@ -1,9 +1,6 @@
-#feature-arequipa {
-    background-image: url('features/arequipa.jpg');
+ 
+ 
+.slogan-islareygeorge {
+    background-image: url('ciudades/_img/islareygeorge/_banner.jpg');
     background-position: center center;
-}
-
-.slogan-arequipa {
-    background-image: url('ciudades/_img/arequipa/_banner.jpg');
-    background-position: center center;
-}
+} 

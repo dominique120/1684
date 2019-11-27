@@ -1,0 +1,9 @@
+#feature-montevideo {
+    background-image: url('features/montevideo.jpg');
+    background-position: center center;
+}
+
+.slogan-montevideo {
+    background-image: url('ciudades/_img/montevideo/_banner.jpg');
+    background-position: center center;
+}

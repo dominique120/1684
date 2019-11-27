@@ -50,6 +50,12 @@
     background-position: center center;
 }
 
+#feature-usa {
+    background-image: url('../america/_img/countries/usa.jpg');
+    background-position: center center;
+}
+
+
 /* banner pricipal de america */
 
 #slogan-america {
