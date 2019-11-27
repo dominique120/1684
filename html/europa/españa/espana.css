@@ -1,34 +1,24 @@
-#feature-madrid {
-    background-image: url('features/minsk.jpg');
-    background-position: center center;
-}
-
 #feature-barcelona{
-    background-image: url('features/slavgorod.jpg');
+    background-image: url('features/barcelona.jpeg');
     background-position: center center;
 }
 
 #feature-valencia {
-    background-image: url('features/brest.jpeg');
+    background-image: url('features/valencia.jpg');
     background-position: center center;
 }
 
 #feature-sevilla {
-    background-image: url('features/orsha.jpg');
+    background-image: url('features/sevilla.jpg');
     background-position: center center;
 }
 
 #feature-zaragoza {
-    background-image: url('features/gomel.jpg');
+    background-image: url('features/zaragoza.jpg');
     background-position: center center;
 }
 
 #feature-malaga {
-    background-image: url('features/mogilev.jpg');
-    background-position: center center;
-}
-
-.slogan-madrid {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('features/malaga.jpg');
     background-position: center center;
 }
