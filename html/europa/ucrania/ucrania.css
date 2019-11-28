@@ -2,22 +2,7 @@
     background-image: url('features/kiev.jpg');
     background-position: center center;
 }
-
-#feature-jarkov {
-    background-image: url('features/jarkov.jpg');
-    background-position: center center;
-}
-
-#feature-dnipropetrovsk {
-    background-image: url('features/dnipropetrovsk.jpeg');
-    background-position: center center;
-}
-
-#feature-odesa {
-    background-image: url('features/odesa.jpg');
-    background-position: center center;
-}
-
+ 
 .slogan-kiev {
     background-image: url('ciudades/_img/kiev/_banner.jpg');
     background-position: center center;

@@ -7,3 +7,13 @@
     background-image: url('ciudades/_img/estambul/_banner.jpg');
     background-position: center center;
 }
+
+#feature-capadocia {
+    background-image: url('features/capadocia.jpg');
+    background-position: center center;
+}
+
+.slogan-capadocia {
+    background-image: url('ciudades/_img/capadocia/_banner.jpg');
+    background-position: center center;
+}
