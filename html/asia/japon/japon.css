@@ -9,11 +9,11 @@
  }
 
  #feature-osaka {
-    background-image: url('features/osaka.jpg');
-    background-position: center center;
-}
+     background-image: url('features/osaka.jpg');
+     background-position: center center;
+ }
 
-.slogan-osaka {
-    background-image: url('ciudades/_img/osaka/_banner.jpg');
-    background-position: center center;
-}
+ .slogan-osaka {
+     background-image: url('ciudades/_img/osaka/_banner.jpg');
+     background-position: center center;
+ }

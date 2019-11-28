@@ -27,6 +27,7 @@
     background-image: url('ciudades/_img/roma/_banner.jpg');
     background-position: center center;
 }
+
 .slogan-milan {
     background-image: url('ciudades/_img/milan/_banner.jpg');
     background-position: center center;
@@ -36,10 +37,12 @@
     background-image: url('ciudades/_img/palermo/_banner.jpg');
     background-position: center center;
 }
+
 .slogan-napoles {
     background-image: url('ciudades/_img/napoles/_banner.jpg');
     background-position: center center;
 }
+
 .slogan-turin {
     background-image: url('ciudades/_img/turin/_banner.jpg');
     background-position: center center;

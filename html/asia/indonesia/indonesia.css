@@ -9,11 +9,11 @@
  }
 
  #feature-bali {
-    background-image: url('features/bali.jpg');
-    background-position: center center;
-}
+     background-image: url('features/bali.jpg');
+     background-position: center center;
+ }
 
-.slogan-bali {
-    background-image: url('ciudades/_img/bali/_banner.jpg');
-    background-position: center center;
-}
+ .slogan-bali {
+     background-image: url('ciudades/_img/bali/_banner.jpg');
+     background-position: center center;
+ }
