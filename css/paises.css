@@ -102,6 +102,11 @@
     background-position: center center;
 }
 
+.slogan-usa {
+    background-image: url('../html/usa/usa/usa.jpg');
+    background-position: center center;
+}
+
 /* asia*/
 
 .slogan-china {
