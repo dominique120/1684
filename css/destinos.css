@@ -50,10 +50,13 @@ body {
     background-size: cover;
 }
 
+.continentes a:hover {
+    cursor: pointer;
+}
+
 .continentes a {
     all: unset;
 }
-
 .continentes h3 a:hover {
     border-bottom: 3px solid #d3a700;
     cursor: pointer;
