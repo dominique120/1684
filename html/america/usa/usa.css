@@ -1,0 +1,9 @@
+#feature-washington {
+    background-image: url('features/washington.jpg');
+    background-position: center center;
+}
+
+.slogan-washington {
+    background-image: url('ciudades/_img/washington/_banner.jpg');
+    background-position: center center;
+}
