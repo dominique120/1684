@@ -148,3 +148,20 @@
     background-image: url('../html/asia/turquia/turquia.jpg');
     background-position: center center;
 }
+
+/* oceania */
+
+.slogan-australia {
+    background-image: url('../html/oceania/australia/australia.jpg');
+    background-position: center center;
+}
+
+.slogan-zelanda {
+    background-image: url('../html/oceania/zelanda/zelanda.jpg');
+    background-position: center center;
+}
+
+.slogan-guinea {
+    background-image: url('../html/oceania/guinea/guinea.jpg');
+    background-position: center center;
+}
