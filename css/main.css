@@ -4,6 +4,12 @@
     margin: auto;
 }
 
+body {
+    
+    margin: 0px;
+    margin: auto;
+}
+
 #feature-1 {
     background-image: url('https://via.placeholder.com/300.png');
 }
@@ -326,3 +332,5 @@ body {
 .dropdown:hover .dropbtn {
     background-color: lightgray;
 }
+
+
