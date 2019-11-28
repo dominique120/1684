@@ -1,10 +1,9 @@
- 
-#feature-portmoresby {
-    background-image: url('features/portmoresby.jpg');
-    background-position: center center;
-}
+ #feature-portmoresby {
+     background-image: url('features/portmoresby.jpg');
+     background-position: center center;
+ }
 
-.slogan-portmoresby {
-    background-image: url('ciudades/_img/portmoresby/_banner.jpg');
-    background-position: center center;
-}
+ .slogan-portmoresby {
+     background-image: url('ciudades/_img/portmoresby/_banner.jpg');
+     background-position: center center;
+ }

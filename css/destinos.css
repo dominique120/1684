@@ -57,6 +57,7 @@ body {
 .continentes a {
     all: unset;
 }
+
 .continentes h3 a:hover {
     border-bottom: 3px solid #d3a700;
     cursor: pointer;
