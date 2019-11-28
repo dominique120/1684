@@ -1,9 +1,9 @@
- 
-#feature-darkhan {
-    background-image: url('features/darkhan.jpg');
-    background-position: center center;
-} 
-.slogan-darkhan {
-    background-image: url('ciudades/_img/darkhan/_banner.jpg');
-    background-position: center center;
-}
+ #feature-darkhan {
+     background-image: url('features/darkhan.jpg');
+     background-position: center center;
+ }
+
+ .slogan-darkhan {
+     background-image: url('ciudades/_img/darkhan/_banner.jpg');
+     background-position: center center;
+ }

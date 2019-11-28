@@ -1,9 +1,9 @@
- 
-#feature-yakarta {
-    background-image: url('features/yakarta.jpg');
-    background-position: center center;
-} 
-.slogan-yakarta {
-    background-image: url('ciudades/_img/yakarta/_banner.jpg');
-    background-position: center center;
-}
+ #feature-yakarta {
+     background-image: url('features/yakarta.jpg');
+     background-position: center center;
+ }
+
+ .slogan-yakarta {
+     background-image: url('ciudades/_img/yakarta/_banner.jpg');
+     background-position: center center;
+ }
