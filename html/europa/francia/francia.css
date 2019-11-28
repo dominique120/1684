@@ -1,34 +1,19 @@
 #feature-paris {
-    background-image: url('features/minsk.jpg');
+    background-image: url('features/paris.jpg');
     background-position: center center;
 }
-
-#feature-marsella {
-    background-image: url('features/slavgorod.jpg');
-    background-position: center center;
-}
-
-#feature-lyon {
-    background-image: url('features/brest.jpeg');
-    background-position: center center;
-}
-
-#feature-toulouse {
-    background-image: url('features/orsha.jpg');
-    background-position: center center;
-}
-
-#feature-niza {
-    background-image: url('features/gomel.jpg');
-    background-position: center center;
-}
-
-#feature-estrasburgo {
-    background-image: url('features/mogilev.jpg');
-    background-position: center center;
-}
-
+ 
 .slogan-paris {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('ciudades/_img/paris/_banner.jpg');
+    background-position: center center;
+}
+
+#feature-provenza {
+    background-image: url('features/provenza.jpg');
+    background-position: center center;
+}
+ 
+.slogan-provenza {
+    background-image: url('ciudades/_img/provenza/_banner.jpg');
     background-position: center center;
 }
