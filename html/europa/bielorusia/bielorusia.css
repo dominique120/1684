@@ -32,3 +32,8 @@
     background-image: url('ciudades/_img/minsk/_banner.jpg');
     background-position: center center;
 }
+
+.slogan-slavgorod {
+    background-image: url('ciudades/_img/slavgorod/banner.JPG');
+    background-position: center center;
+}

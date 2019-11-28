@@ -1,9 +1,9 @@
-#feature-montevideo {
-    background-image: url('features/montevideo.jpg');
+#feature-washington {
+    background-image: url('features/washington.jpg');
     background-position: center center;
 }
 
-.slogan-montevideo {
-    background-image: url('ciudades/_img/montevideo/_banner.jpg');
+.slogan-washington {
+    background-image: url('ciudades/_img/washington/_banner.jpg');
     background-position: center center;
 }
