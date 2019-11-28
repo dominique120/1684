@@ -1,44 +1,10 @@
-#feature-estambul {
-    background-image: url('https://www.elsiglodetorreon.com.mx/m/i/2019/09/1228835.jpeg');
-}
-
-#feature-ankara {
-    background-image: url('http://www.smarttravelpanama.com/wp-content/uploads/2018/02/Mendoza1.jpg');
-}
-
-#feature-esmirna {
-    background-image: url('https://therealargentina.com/wp-content/uploads/2015/05/Monumento-Nacional-a-la-Bandera23.jpg');
-}
-
-#feature-antalya {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b5/Catedral_de_La_Plata_03.JPG');
-}
-
-#feature-bursa {
-    background-image: url('https://cdn.civitatis.com/argentina/salta/galeria/quebrada-conchas.jpg');
-}
-
+#feature-estambul { 
+    background-image: url('features/estambul.jpg');
+    background-position: center center;
+} 
+ 
 .slogan-estambul {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
+    background-image: url('ciudades/_img/estambul/_banner.jpg');
     background-position: center center;
 }
-
-.slogan-ankara {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-esmirna {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-antalya {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
-
-.slogan-bursa {
-    background-image: url('ciudades/_img/minsk/_banner.jpg');
-    background-position: center center;
-}
+ 

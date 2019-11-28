@@ -101,3 +101,46 @@
     background-image: url('../html/america/uruguay/uruguay.jpg');
     background-position: center center;
 }
+
+
+/* asia*/
+
+.slogan-china {
+    background-image: url('../html/asia/china/china.jpg');
+    background-position: center center;
+}
+
+.slogan-india {
+    background-image: url('../html/asia/india/india.jpg');
+    background-position: center center;
+}
+
+.slogan-indonesia {
+    background-image: url('../html/asia/indonesia/indonesia.jpg');
+    background-position: center center;
+}
+
+.slogan-iraq {
+    background-image: url('../html/asia/iraq/iraq.jpg');
+    background-position: center center;
+}
+
+.slogan-japon {
+    background-image: url('../html/asia/japon/japon.jpg');
+    background-position: center center;
+}
+
+.slogan-kyrgystan {
+    background-image: url('../html/asia/kyrgystan/kyrgystan.jpg');
+    background-position: center center;
+}
+
+.slogan-mongolia {
+    background-image: url('../html/asia/mongolia/mongolia.jpg');
+    background-position: center center;
+}
+
+.slogan-turquia {
+    background-image: url('../html/asia/turquia/turquia.jpg');
+    background-position: center center;
+}

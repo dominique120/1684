@@ -1,0 +1,10 @@
+ 
+#feature-kerbala {
+    background-image: url('features/kerbala.jpg');
+    background-position: center center;
+} 
+ 
+.slogan-kerbala {
+    background-image: url('ciudades/_img/kerbala/_banner.jpg');
+    background-position: center center;
+}
