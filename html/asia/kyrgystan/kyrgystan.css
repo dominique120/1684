@@ -1,9 +1,9 @@
- 
-#feature-osh {
-    background-image: url('features/osh.jpg');
-    background-position: center center;
-} 
-.slogan-osh {
-    background-image: url('ciudades/_img/osh/_banner.jpg');
-    background-position: center center;
-}
+ #feature-osh {
+     background-image: url('features/osh.jpg');
+     background-position: center center;
+ }
+
+ .slogan-osh {
+     background-image: url('ciudades/_img/osh/_banner.jpg');
+     background-position: center center;
+ }

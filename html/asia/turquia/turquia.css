@@ -1,10 +1,9 @@
-#feature-estambul { 
+#feature-estambul {
     background-image: url('features/estambul.jpg');
     background-position: center center;
-} 
- 
+}
+
 .slogan-estambul {
     background-image: url('ciudades/_img/estambul/_banner.jpg');
     background-position: center center;
 }
- 

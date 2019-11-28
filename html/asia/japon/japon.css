@@ -1,10 +1,9 @@
- 
-#feature-tokio { 
-    background-image: url('features/tokio.jpg');
-    background-position: center center;
-} 
- 
-.slogan-tokio {
-    background-image: url('ciudades/_img/tokio/_banner.jpg');
-    background-position: center center;
-}
+ #feature-tokio {
+     background-image: url('features/tokio.jpg');
+     background-position: center center;
+ }
+
+ .slogan-tokio {
+     background-image: url('ciudades/_img/tokio/_banner.jpg');
+     background-position: center center;
+ }
