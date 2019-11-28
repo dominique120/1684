@@ -3,7 +3,7 @@
     background-position: center center;
 }
 
-#feature-milan{
+#feature-milan {
     background-image: url('features/milan.jpg');
     background-position: center center;
 }
@@ -13,7 +13,7 @@
     background-position: center center;
 }
 
-#feature-turin{
+#feature-turin {
     background-image: url('features/turin.jpg');
     background-position: center center;
 }
@@ -22,7 +22,7 @@
     background-image: url('features/palermo.jpg');
     background-position: center center;
 }
- 
+
 .slogan-roma {
     background-image: url('ciudades/_img/roma/_banner.jpg');
     background-position: center center;

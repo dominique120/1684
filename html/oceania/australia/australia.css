@@ -1,14 +1,14 @@
-#feature-sidney{
+#feature-sidney {
     background-image: url('features/minsk.jpg');
     background-position: center center;
 }
 
-#feature-melbourne{
+#feature-melbourne {
     background-image: url('features/slavgorod.jpg');
     background-position: center center;
 }
 
-#feature-brisbane{
+#feature-brisbane {
     background-image: url('features/brest.jpeg');
     background-position: center center;
 }
@@ -22,7 +22,6 @@
     background-image: url('features/gomel.jpg');
     background-position: center center;
 }
- 
 
 .slogan-sidney {
     background-image: url('ciudades/_img/minsk/_banner.jpg');

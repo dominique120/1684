@@ -1,0 +1,23 @@
+/* imagenes de los circulos de paises */
+
+#feature-isladecepcion {
+    background-image: url('../antartida/_img/countries/isladecepcion.jpg');
+    background-position: center center;
+}
+
+#feature-islareygeorge {
+    background-image: url('../antartida/_img/countries/islareygeorge.jpg');
+    background-position: center center;
+}
+
+#feature-islashetland {
+    background-image: url('../antartida/_img/countries/islashetland.jpg');
+    background-position: center center;
+}
+
+/* banner pricipal de antartida */
+
+#slogan-antartida {
+    background-image: url('../antartida/_img/antartida.jpg');
+    background-position: center center;
+}

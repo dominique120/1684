@@ -6,14 +6,14 @@
 
 body {
     transition: top 0.9s;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-} 
- 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 /*EDITADO */
+
 .continentes ul {
     margin: 20px 0px 20px 0px;
 }
-
 
 .continentes li {
     margin: 10px 15px 10px 15px;
@@ -29,7 +29,7 @@ body {
 .continentes li:hover {
     display: inline-block;
     position: relative;
-    color:white;
+    color: white;
     background-color: black;
     padding: 15px;
     width: 150px;
@@ -45,17 +45,16 @@ body {
     background-image: url('../img/slide5.jpg');
     color: white;
     align-items: center;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
-.continentes a { 
-        all: unset; 
-}
- 
 
-.continentes h3 a:hover {  
+.continentes a {
+    all: unset;
+}
+
+.continentes h3 a:hover {
     border-bottom: 3px solid #d3a700;
     cursor: pointer;
 }

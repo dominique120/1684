@@ -8,44 +8,138 @@
     background-position: center center;
 }
 
-.slogan-alemania{
+.slogan-alemania {
     background-image: url('../html/europa/alemania/alemania.jpg');
     background-position: center center;
 }
 
-.slogan-espana{
-    background-image: url('../html/europa/españa/españa.jpg');
+.slogan-espana {
+    background-image: url('../html/europa/espana/españa.jpg');
     background-position: center center;
 }
-.slogan-italia{
+
+.slogan-italia {
     background-image: url('../html/europa/italia/italia.jpg');
     background-position: center center;
 }
 
 /* africa*/
 
-.slogan-argelia{
+.slogan-argelia {
     background-image: url('../html/africa/argelia/argelia.jpg');
     background-position: center center;
 }
 
-
-.slogan-marfil{
+.slogan-marfil {
     background-image: url('../html/africa/marfil/marfil.jpg');
     background-position: center center;
 }
 
-.slogan-egipto{
+.slogan-egipto {
     background-image: url('../html/africa/egipto/egipto.jpg');
     background-position: center center;
-} 
+}
 
-.slogan-marruecos{
+.slogan-marruecos {
     background-image: url('../html/africa/marruecos/marruecos.jpg');
     background-position: center center;
-} 
+}
 
-.slogan-nigeria{
+.slogan-nigeria {
     background-image: url('../html/africa/nigeria/nigeria.jpg');
+    background-position: center center;
+}
+
+/*america*/
+
+.slogan-argentina {
+    background-image: url('../html/america/argentina/argentina.jpg');
+    background-position: center center;
+}
+
+.slogan-bolivia {
+    background-image: url('../html/america/bolivia/bolivia.jpg');
+    background-position: center center;
+}
+
+.slogan-brasil {
+    background-image: url('../html/america/brasil/brasil.jpg');
+    background-position: center center;
+}
+
+.slogan-chile {
+    background-image: url('../html/america/chile/chile.jpg');
+    background-position: center center;
+}
+
+.slogan-colombia {
+    background-image: url('../html/america/colombia/colombia.jpg');
+    background-position: center center;
+}
+
+.slogan-ecuador {
+    background-image: url('../html/america/ecuador/ecuador.jpg');
+    background-position: center center;
+}
+
+.slogan-mexico {
+    background-image: url('../html/america/mexico/mexico.jpg');
+    background-position: center center;
+}
+
+.slogan-paraguay {
+    background-image: url('../html/america/paraguay/paraguay.jpg');
+    background-position: center center;
+}
+
+.slogan-peru {
+    background-image: url('../html/america/peru/peru.jpg');
+    background-position: center center;
+}
+
+.slogan-uruguay {
+    background-image: url('../html/america/uruguay/uruguay.jpg');
+    background-position: center center;
+}
+
+/* asia*/
+
+.slogan-china {
+    background-image: url('../html/asia/china/china.jpg');
+    background-position: center center;
+}
+
+.slogan-india {
+    background-image: url('../html/asia/india/india.jpg');
+    background-position: center center;
+}
+
+.slogan-indonesia {
+    background-image: url('../html/asia/indonesia/indonesia.jpg');
+    background-position: center center;
+}
+
+.slogan-iraq {
+    background-image: url('../html/asia/iraq/iraq.jpg');
+    background-position: center center;
+}
+
+.slogan-japon {
+    background-image: url('../html/asia/japon/japon.jpg');
+    background-position: center center;
+}
+
+.slogan-kyrgystan {
+    background-image: url('../html/asia/kyrgystan/kyrgystan.jpg');
+    background-position: center center;
+}
+
+.slogan-mongolia {
+    background-image: url('../html/asia/mongolia/mongolia.jpg');
+    background-position: center center;
+}
+
+.slogan-turquia {
+    background-image: url('../html/asia/turquia/turquia.jpg');
     background-position: center center;
 }

@@ -1,34 +1,46 @@
 #feature-china {
-    background-image: url('https://images.chinahighlights.com/2014/01/lijiang_river619af7a7a863_cut_798x465_275.webp');
+    background-image: url('../asia/_img/countries/china.jpg');
+    background-position: center center;
 }
 
 #feature-india {
-    background-image: url('https://www.aperianglobal.com/content/uploads/2015/08/IndiaCountryBriefing.jpg');
+    background-image: url('../asia/_img/countries/india.jpg');
+    background-position: center center;
 }
 
 #feature-indonesia {
-    background-image: url('https://content.tui.co.uk/adamtui/2017_9/6_9/21c10406-d87a-456a-841a-a7e60095f27a/shutterstock_631736717WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)');
+    background-image: url('../asia/_img/countries/indonesia.jpg');
+    background-position: center center;
 }
 
 #feature-japon {
-    background-image: url('https://rccl-h.assetsadobe.com/is/image/content/dam/royal/ports-and-destinations/destinations/japan/assets/japan-fuji-mountain-himeji-castle-full-cherry-blossom-h.jpg?$750x667$');
+    background-image: url('../asia/_img/countries/japon.jpg');
+    background-position: center center;
 }
 
 #feature-turquia {
-    background-image: url('https://www.onlinevisatravel.com/wp-content/uploads/2017/10/Turkey-Istanbul_8274724020.jpg');
+    background-image: url('../asia/_img/countries/turquia.jpg');
+    background-position: center center;
 }
 
 #feature-mongolia {
-    background-image: url('https://en.unesco.org/silkroad/sites/silkroad/files/styles/silkroad_inpage/public/mongolia-nomadism-silk-roads-unesco_1.jpg?itok=_7MUHa0K');
+    background-image: url('../asia/_img/countries/mongolia.jpg');
+    background-position: center center;
 }
 
 #feature-kyrgystan {
-    background-image: url('https://www.exodus.co.uk/sites/exod/files/styles/exo_1600_566/public/hero-image/hero-image/images/48192_hero.jpg?t=1Hzd6G&itok=Ju6UAumk&timestamp=1541759938');
+    background-image: url('../asia/_img/countries/kyrgystan.jpg');
+    background-position: center center;
 }
 
 #feature-iraq {
-    background-image: url('https://www.thecultureist.com/wp-content/uploads/2013/08/Iraq-national-park.jpg');
+    background-image: url('../asia/_img/countries/iraq.jpg');
+    background-position: center center;
 }
 
--------
- 
+/* banner pricipal de asia */
+
+#slogan-asia {
+    background-image: url('../asia/_img/asia.jpg');
+    background-position: center center;
+}
