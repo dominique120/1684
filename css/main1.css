@@ -1,0 +1,336 @@
+* {
+    max-width: 1200px;
+    margin: 0px;
+    margin: auto;
+}
+
+body {
+    
+    margin: 0px;
+    margin: auto;
+}
+
+#feature-1 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+#feature-2 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+#feature-3 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+#feature-4 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+#feature-5 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+#feature-6 {
+    background-image: url('https://via.placeholder.com/300.png');
+}
+
+.bg-cc {
+    background-position: center center;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    transition: top 0.9s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#logo {
+    z-index: +1;
+}
+
+.feature-link {
+    text-decoration: none;
+    height: 60px;
+    width: 150px;
+    list-style: none;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.feature-link:hover {
+    color: white;
+}
+
+.feature-link:visited {
+    color: inherit;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.footer {
+    border-top: 3px solid #d3a700;
+    border-bottom: 3px solid #d3a700;
+    background-color: #1c1c1c;
+    width: 100%;
+    height: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.footer .social {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.footer .social h5 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: -4px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #6c757d;
+}
+
+.slogan {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-repeat: repeat;
+    background-size: 100%;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 0.2em #342625, 0 0 0.2em #342625;
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-size: cover;
+}
+
+.crousel-text-shadow {
+    text-shadow: 0 0 0.2em #342625, 0 0 0.2em #342625;
+}
+
+.slogan-principal {
+    background-image: url('../img/continentes.jpg');
+}
+
+.continente {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+}
+
+.conti {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#conti-feature-africa {
+    background-image: url('../img/continents/africa.jpg');
+    background-position: center;
+}
+
+#conti-feature-america {
+    background-image: url('../img/continents/america.jpg');
+    background-position: center;
+}
+
+#conti-feature-antartida {
+    background-image: url('../img/continents/antartica.jpg');
+    background-position: center;
+}
+
+#conti-feature-asia {
+    background-image: url('../img/continents/asia.jpg');
+    background-position: center;
+}
+
+#conti-feature-oceania {
+    background-image: url('../img/continents/australia.jpg');
+    background-position: center;
+}
+
+#conti-feature-europa {
+    background-image: url('../img/continents/europe.jpg');
+    background-position: center;
+}
+
+.conti .text, .continente a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    font-weight: normal;
+    display: inline-grid;
+    transition: display 0.5s;
+    font-size: 24px;
+    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000;
+}
+
+.continente a:hover {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    font-weight: bold;
+    display: inline-grid;
+    transition: display 0.5s;
+    font-size: 24px;
+}
+
+.conti:hover .text {
+    display: block;
+}
+
+.conti:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.caption-1 figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.caption-2 figcaption {
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
+    left: 10%;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.caption-3 figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.donde-estamos {
+    text-align: left;
+    color: #6c757d;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.donde-estamos:visited {
+    color: inherit;
+}
+
+/*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+
+body {
+    min-height: 100vh;
+    background: #eeeeee;
+}
+
+.border-md {
+    border-width: 2px !important;
+}
+
+.separator {
+    border-bottom: 1px dashed #aaa;
+}
+
+.text-small {
+    font-size: 0.85rem;
+}
+
+/* Dropdown Button */
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: +1;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: lightgray;
+}
+
+
